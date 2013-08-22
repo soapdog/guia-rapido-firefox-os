@@ -1,5 +1,6 @@
 introduction.md
 setup.md
+basics.md
 firstapp.md
 devtools.md
 simulator.md
