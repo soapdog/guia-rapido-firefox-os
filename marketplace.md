@@ -57,7 +57,7 @@ Estamos assumindo para efeito desse exemplo um aplicativo empacotado gratuito pa
 
 Após o envio do arquivo ele será processado e um relatório com mais opções será mostrado.
 
-![Depois do envio do arquivo zip](images/originals/marketplace-step-1.5.png)
+![Depois do envio do arquivo zip](images/originals/marketplace-step-1_5.png)
 
 Como podemos ver na captura, esse programa que eu enviei não contém erros mas contém seis avisos. Fora isso podemos marcar os **requisitos mínimos** para que o app seja instalado. No caso desse exemplo, o último requisito, que fala sobre resolução de tela qHD deve ser desmarcado visto que esse aplicativo funciona em qualquer resolução.
 
