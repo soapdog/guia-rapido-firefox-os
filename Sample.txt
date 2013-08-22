@@ -1,3 +1,4 @@
+front.md
 introduction.md
 setup.md
 basics.md

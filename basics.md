@@ -85,5 +85,8 @@ Aqui vemos mais um exemplo de uma [WebActivity](https://hacks.mozilla.org/2013/0
 
 ![Exemplo da atividade *pick*](images/originals/pick_image.png)
 
+## Conclusão
+
+Nesse capítulo vimos alguns conceitos básicos sobre o Firefox OS que serão expandidos nos próximos capítulos. Agora é hora de colocar a mão na massa e fazermos um app!
 
 
