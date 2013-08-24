@@ -77,7 +77,7 @@ Na *linha 01* declaramos o tipo do documento como sendo HTML 5. Da *linha 05 at�
 
 ### Construíndo a tela principal
 
-Agora podemos passar a implementação das telas. Como falamos anteriormente, cada tela do programa é uma **<section>** dentro do **body** do HTML que deve ter um atributo *role* com valor *application* tipo `<body role="application">`. Isso é utilizado pelos seletores dos CSS do Building Blocks. Vamos construír a primeira tela (e declarar o body).
+Agora podemos passar a implementação das telas. Como falamos anteriormente, cada tela do programa é uma **<section>** dentro do **<body>** do HTML que deve ter um atributo *role* com valor *application* tipo `<body role="application">`. Isso é utilizado pelos seletores dos CSS do Building Blocks. Vamos construír a primeira tela (e declarar o body).
 
 ~~~~~~~~
 <body role="application">
@@ -93,7 +93,7 @@ Agora podemos passar a implementação das telas. Como falamos anteriormente, ca
 </section>
 ~~~~~~~~
 
-Nossa tela tem um **header** que possui um botão para adicionar novas notas e o nome do programa. Possui também um **article** que é utilizado para conter a lista de notas armazanadas no app. Nós utilizaremos as IDs do **article** e do **botão** para capturar eventos quando chegarmos na parte em JavaScript.
+Nossa tela tem um **<header>** que possui um botão para adicionar novas notas e o nome do programa. Possui também um **<article>** que é utilizado para conter a lista de notas armazanadas no app. Nós utilizaremos as IDs do **<article>** e do **botão** para capturar eventos quando chegarmos na parte em JavaScript.
 
 Repare que a criação da tela é um HTML bem tranquilo de se entender, construir a mesma tela em outras linguagens é muito mais trabalhoso. Simplesmente declaramos nossos componentes e damos IDs para elementos que desejamos referenciar posteriormente. 
 
@@ -140,13 +140,13 @@ Agora que temos a tela principal pronta, vamos montar a tela de edição que é 
 
 Essa tela de edição contém a tela de diálogo utilizada quando o usuário tenta deletar uma nota por isso ela é mais complicada. 
 
-No topo da tela que é marcado pelo **header** temos o botão de voltar para a tela principal, uma caixa de entrada de texto que é utilizada para mostrar e modificar o título da nota e um botão utilizado para enviar a nota por email.
+No topo da tela que é marcado pelo **<header>** temos o botão de voltar para a tela principal, uma caixa de entrada de texto que é utilizada para mostrar e modificar o título da nota e um botão utilizado para enviar a nota por email.
 
 Depois da toolbar que fica no topo, temos um parágrafo contendo uma área para a entrada de texto da nota e então uma outra toolbar com um botão para deletar a nota que está aberta.
 
-Esses três elementos e seus nós filhos formam a tela de edição e após essa tela temos um **form** que na verdade representa a caixa de diálogo utilizada pela tela de confirmação da remoção da nota. Essa caixa de diálogo é bem simples contendo uma mensagem informativa e um botão para cancelar a ação de deletar a nota e um para confirmar.
+Esses três elementos e seus nós filhos formam a tela de edição e após essa tela temos um **<form>** que na verdade representa a caixa de diálogo utilizada pela tela de confirmação da remoção da nota. Essa caixa de diálogo é bem simples contendo uma mensagem informativa e um botão para cancelar a ação de deletar a nota e um para confirmar.
 
-Ao fecharmos essa **section** terminamos todas as telas do programa e o restante do código HTML serve apenas para incluir os arquivos de JavaScript utilizados pelo programa.
+Ao fecharmos essa **<section>** terminamos todas as telas do programa e o restante do código HTML serve apenas para incluir os arquivos de JavaScript utilizados pelo programa.
 
 ~~~~~~~~
 <script src="/js/model.js"></script>
@@ -157,7 +157,7 @@ Ao fecharmos essa **section** terminamos todas as telas do programa e o restante
 
 ## Construíndo o JavaScript
 
-Agora vamos programar de verdade ao dar vida ao nosso app. Para efeitos de organização separei o código em dois arquivos de JavaScript:
+Agora vamos programar de verdade e dar vida ao nosso app. Para efeitos de organização separei o código em dois arquivos de JavaScript:
 
 * **model.js:** que contém as rotinas para lidar com o armazenamento e alteração das notas porém não contém a lógica do programa ou algo relacionado a sua interface e tratamento de entrada de dados.
 * **app.js:** responsável por ligar os elementos do HTML às rotinas correspondentes e contém a lógica do app.
@@ -173,8 +173,8 @@ A parte do código do model.js que mostrarei abaixo é responsável por abrir a 
 A> Importante: Esse código foi escrito para ser entendido facilmente e não representa as melhores práticas de programação para JavaScript. Variáveis globais são utilizadas (ARGH!) entre outros problemas. Fora isso o tratamento de erros é basicamente inexistente. O mais importante desse livro é ensinar o *worlflow* de como programar apps para Firefox OS.
 
 ~~~~~~~
-const dbName = "memos";
-const dbVersion = 1;
+var dbName = "memos";
+var dbVersion = 1;
 
 var db;
 var request = indexedDB.open(dbName, dbVersion);
@@ -215,17 +215,81 @@ request.onupgradeneeded = function (event) {
 }
 ~~~~~~~
 
+A> Importante: Novamente me perdoem pelas variáveis globais, isso aqui é um app educativo apenas. Outro detalhe é que eu removi os comentários dos código colados no livro para economizar espaço. O código fonte no github está comentado.
+
+O código acima cria um objeto *db* e um objeto *request*. O objeto *db* é utilizado por outras funções no código para manipular o registro das notas.
+
+Na implementação da função `request.onupgradeneeded` aproveitamos para criar uma nota de exemplo desta forma assim que o programa liga pela primeira vez e essa função é executada, o banco de dados é inicializado com uma nota de boas vindas.
+
+Com nossa conexão aberta e armazenamento inicializado é hora de implementar as funções para manipulação das notas.
+
+~~~~~~~~
+function Memo() {
+    this.title = "Untitled Memo";
+    this.content = "";
+    this.created = Date.now();
+    this.modified = Date.now();
+}
+
+function listAllMemoTitles(inCallback) {
+    var objectStore = db.transaction("memos").objectStore("memos");
+    console.log("Listing memos...");
+
+    objectStore.openCursor().onsuccess = function (event) {
+        var cursor = event.target.result;
+        if (cursor) {
+            console.log("Found memo #" + cursor.value.id + " - " + cursor.value.title);
+            inCallback(null, cursor.value);
+            cursor.continue();
+        }
+    };
+}
+
+function saveMemo(inMemo, inCallback) {
+    var transaction = db.transaction(["memos"], "readwrite");
+    console.log("Saving memo");
+
+    transaction.oncomplete = function (event) {
+        console.log("All done");
+    };
+
+    transaction.onerror = function (event) {
+        console.error("Error saving memo:", event);
+        inCallback({
+            error: event
+        }, null);
+
+    };
+
+    var objectStore = transaction.objectStore("memos");
+
+    inMemo.modified = Date.now();
+
+    var request = objectStore.put(inMemo);
+    request.onsuccess = function (event) {
+        console.log("Memo saved with id: " + request.result);
+        inCallback(null, request.result);
+
+    };
+}
+
+function deleteMemo(inId, inCallback) {
+    console.log("Deleting memo...");
+    var request = db.transaction(["memos"], "readwrite").objectStore("memos").delete(inId);
+
+    request.onsuccess = function (event) {
+        console.log("Memo deleted!");
+        inCallback();
+    };
+}
+~~~~~~~~
+
+Acima criamos uma função construtora para montar novas notas já com alguns campos inicializados. A seguir implementamos funções para listar, salvar e remover as notas. Essas funções em geral sempre aceitam um parametro `inCallback` que é uma função de retorno para ser executada após o processamento da função. Isso é necessário dada a natureza assíncrona das chamadas ao IndexedDB. Todas as callbacks tem a mesma assinatura que é `callback(error, value)` onde um dos valores é nulo dependendo do que aconteceu.
+
+A> Como esse é um livro de caráter introdutório eu optei por não utilizar [*Promises*](https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/Promise.jsm/Promise) visto que muitos desenvolvedores ainda não estão familiarizados com o conceito. Eu recomendo fortemente a utilização desse tipo de solução que torna o código mais legível e fácil de manter.
+
+ 
 
 
-
-
-
-
-
-
-
-## Vestindo nosso app com CSS
-
-## Adicionando o Javascript
 
 ## Testando o app no simulador

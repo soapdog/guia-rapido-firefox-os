@@ -20,7 +20,7 @@ Esse livro é destinado para pessoas com conhecimentos intermediários de HTML, 
 
 # Boas Práticas vs Facilidade de Aprendizado
 
-Programadores experientes verão que nos códigos fontes apresentados nesse livro nem sempre as melhores práticas em termos de aumento de performance estão sendo seguidas. Eu não estou encapsulando meu JavaScript em funções imediatas. Eu estou colocando coisas que não devia no objeto global. Mas isso tudo tem um motivo, facilitar o entendimento e a leitura do código. Esse livro é um guia introdutório e programadores experientes saberão onde e como modificar o código. Programadores novatos entenderão o que está escrito e não sofrerão nenhum problema pois tudo que está aqui funciona.
+Programadores experientes verão que nos códigos fontes apresentados nesse livro nem sempre as melhores práticas para programação estão sendo seguidas. Eu não estou encapsulando meu JavaScript em funções imediatas. Eu estou colocando coisas que não devia no objeto global. Isso tudo tem um motivo, facilitar o entendimento e a leitura do código. Esse livro é um guia introdutório e programadores experientes saberão onde e como modificar o código. Programadores novatos entenderão o que está escrito e não sofrerão nenhum problema pois tudo que está aqui funciona.
 
 Se você deseja aprofundar seus estudos de JavaScript e se tornar o **mestre ninja king size da web** eu vou passar uma lista de livros abaixo. 
 
