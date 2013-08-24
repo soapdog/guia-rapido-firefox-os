@@ -16,6 +16,15 @@ function showMemoDetail(inMemo) {
     detailView.classList.remove("hidden");
 }
 
+
+/**
+ * This function is used to pick the current memo data and insert it into the DOM elements.
+ */
+function displayMemo() {
+    document.getElementById("memo-title").value = currentMemo.title;
+    document.getElementById("memo-content").value = currentMemo.content;
+}
+
 /**
  * This function is used to share the current memo using email.
  */
@@ -35,14 +44,6 @@ function shareMemo() {
 }
 
 /**
- * This function is used to pick the current memo data and insert it into the DOM elements.
- */
-function displayMemo() {
-    document.getElementById("memo-title").value = currentMemo.title;
-    document.getElementById("memo-content").value = currentMemo.content;
-}
-
-/**
  * This function is called by the text change event. It picks the data from the DOM elements holding the
  * memo data and save it to the indexedDB database.
  * @param e
@@ -59,8 +60,8 @@ function textChanged(e) {
 }
 
 function newMemo() {
-    var newMemo = new Memo();
-    showMemoDetail(newMemo);
+    var theMemo = new Memo();
+    showMemoDetail(theMemo);
 }
 
 function requestDeleteConfirmation() {
@@ -78,7 +79,7 @@ function deleteCurrentMemo() {
         if (!err) {
             showMemoList();
         }
-    })
+    });
 }
 
 function showMemoList() {
@@ -151,4 +152,4 @@ window.onload = function () {
     // the entry point for the app is the following command
     refreshMemoList();
 
-}
+};
