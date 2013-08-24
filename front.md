@@ -8,7 +8,7 @@ Ao contrário de alguns autores que buscam se excluir do texto vocês irão enco
 
 Estou fazendo esse livro no meu tempo livre e distribuindo ele como *Creative Commons* de graça via [Leanpub](http://leanpub.com) mas escrever um livro dá bastante trabalho e eu gostaria de poder dedicar mais espaço da minha vida a esse tipo de atividade. Quem achar bacana, pode ao baixar o livro mover o preço de zero reais até quinhentos dólares e então doar algum dinheiro. Quem preferir doar algum dinheiro via PayPal, minha conta é **agarzia@mac.com**. 
 
-Quem quiser me mandar comentários e críticas pode escrever para [guiarapidofxos@andregarzia.com](mailto:guiarapidofxos@andregarzia.com). Meu site é o [http://andregarzia.com](http://andregarzia.com/pages/pt/).
+Quem quiser me mandar comentários e críticas pode escrever para [guiarapidofxos@andregarzia.com](mailto:guiarapidofxos@andregarzia.com). Meu site é o [http://andregarzia.com](http://andregarzia.com/pages/pt/). Meu Twitter é o [@soapdog](http://twitter.com/soapdog).
 
 # Ilustração da capa
 
