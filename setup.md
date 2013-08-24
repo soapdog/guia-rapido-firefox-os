@@ -26,7 +26,7 @@ Utilizando a ferramenta de busca presente no canto superior direito, procure por
 
 Após o complemento ser instalado, ele estará disponível no menu **Ferramentas -> Desenvolvedor Web -> Simulador do Firefox OS**
 
-![Onde fica o simulador após instalado](images/originals/tools-web-developer-simualtor.png)
+![Onde fica o simulador após instalado](images/originals/tools-web-developer-simulator.png)
 
 ## Conclusão
 

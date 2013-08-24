@@ -10,7 +10,7 @@ Nesta tela de edição o usuário pode também deletar a nota sendo mostrada ao 
 
 ![Memos, confirmar a remoção de uma nota](images/originals/memos-delete-screen.png)
 
-O código do Memos está disponível no [meu Github](https://github.com/soapdog/memos-for-firefoxos) para quem quiser baixar e olhar logo tudo de uma vez.
+O código do Memos está disponível no [meu Github](https://github.com/soapdog/memos-for-firefoxos) para quem quiser baixar e olhar logo tudo de uma vez. Existe uma cópia do código do app na pasta **code** dentro do [repositório do livro](https://github.com/soapdog/guia-rapido-firefox-os) que contém o código fonte em Markdown utilizado para gerar esse livro.
 
 O Memos utiliza [IndexedDB](https://developer.mozilla.org/en-US/docs/IndexedDB/Using_IndexedDB) para armazenar as notas e o [Gaia Building Blocks](http://buildingfirefoxos.com/building-blocks) para a construção da sua interface. Em uma atualização futura deste livro eu falarei mais sobre os building blocks, nesta primeira versão simplesmente construiremos o app.
 
@@ -456,4 +456,31 @@ window.onload = function () {
 };
 ~~~~~~~
 
+Agora todos os nossos arquivos estão prontos e podemos testar o aplicativo no simulador.
+
 ## Testando o app no simulador
+
+Antes de testarmos o aplicativo no simulador é melhor garantirmos que todos os arquivos estão no lugar certo. Sua pasta deve se parecer com essa aqui:
+
+![Lista de arquivos do Memos](images/originals/memos-file-list.png)
+
+Se você desconfia que pode haver algo errado com o que você digitou basta comparar sua versão com a que está no [meu GitHub](https://github.com/soapdog/memos-for-firefoxos) (Existe uma cópia do código do app na pasta **code** dentro do [repositório do livro](https://github.com/soapdog/guia-rapido-firefox-os) ).
+
+Para abrir o *Dashboard do Simulator* vá no menu **Ferramentas -> Desenvolvedor Web -> Firefox OS Simulator**.
+
+![Como abrir o dashboard do simulador](images/originals/tools-web-developer-simulator.png)
+
+Com o dashboard aberto, clique no botão **Add Directory** e navegue até a pasta do código fonte do Memos e selecione o arquivo de manifesto.
+
+![Adicionando um novo aplicativo](images/originals/simulator-add-directory.png)
+
+Se tudo funcionar corretamente você vera o aplicativo Memos na lista de apps.
+
+![Memos aparecendo no dashboard](images/originals/memos-on-dashboard-display.png)
+
+Ao adicionar o app, o simulador ligará automaticamente com o app aberto para você testar. Pronto, você ja pode testar as funcionalidades do Memos. Parabéns você criou e testou seu primeiro app. Não é um app complexo ou revolucionário mas te ajudou a entender o *workflow* de desenvolvimento. Lembre-se sempre que você alterar o código fonte do aplicativo, você deve apertar o botão **Refresh** para atualizar a cópia que está instalada no simulador.
+
+## Conclusão
+
+Parabéns você construiu seu primeiro aplicativo móvel para Firefox OS e testou ele no simulador. No próximo capítulo apresentaremos as ferramentas do desenvolvedor que irão facilitar a sua vida na hora de programar.
+

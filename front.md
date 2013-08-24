@@ -34,6 +34,12 @@ Vários desses livros também estão disponíveis em Português. Outras opções
 * [A Web Mobile](http://www.casadocodigo.com.br/products/livro-web-mobile)
 * [HTML5 e CSS 3](http://www.casadocodigo.com.br/products/livro-html-css)
 
+# Feedback & Pull Requests
+
+Esse livro é livre e eu aguardo todo tipo de *feedback* que vocês possam me dar. Todo o conteúdo do livro está em um [repositório no GitHub](https://github.com/soapdog/guia-rapido-firefox-os) e quem tiver recomendações, bug fixes ou melhorias pode enviar um *pull request* sem medo. Agradeço desde já todas as contribuições.
+
+O repositório do livro é [https://github.com/soapdog/guia-rapido-firefox-os](https://github.com/soapdog/guia-rapido-firefox-os).
+
 # Histórico
 
 ## Versão 0.1
