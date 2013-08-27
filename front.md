@@ -14,6 +14,16 @@ Quem quiser me mandar comentários e críticas pode escrever para [guiarapidofxo
 
 Para quem gostou da ilustração da capa, ela foi feita pelo ilustrador e designer Raphael Eckhardt. Vocês podem conhecer mais do trabalho dele e entrar em contato para contratos em [http://raphaeleckhardt.com/](http://raphaeleckhardt.com/).
 
+# Atualizações
+
+Ao baixar esse livro a partir da [página do livro no Leanpub](http://leanpub.com/guiarapidofirefoxos) você pode registrar o seu email e receber atualizações automaticamente. A idéia é atualizar esse livro várias vezes por mês. Se você conseguiu essa cópia de algum outro site ou através de alguém talvez seja melhor ir na página citada acima e se registrar para garantir que você fique sempre atualizado.
+
+
+# Agradecimentos
+Para minha esposa Elisangela Mendonça de Andrade Garzia que é a melhor de todas!
+A Mozilla por sempre apostar na gente e manter a web livre pensando sempre nos usuários!
+A toda a comunidade Mozilla Brasil que me recebeu tão bem e me aturou todo esse tempo!
+
 # Para quem é esse livro
 
 Esse livro é destinado para pessoas com conhecimentos intermediários de HTML, CSS e JavaScript que desejam construir aplicativos móveis utilizando tecnologias web. Ensinar HTML, CSS e JavaScript estão fora do escopo desse livro porém eu forneço links para bons livros de referência para quem precisar de uma forcinha.
