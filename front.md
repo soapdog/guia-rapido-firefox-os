@@ -4,9 +4,9 @@
 
 Esse livro esta sendo produzido de forma ágil. A idéia é lançar atualizações constantes melhorando e expandido o conteúdo. Como algumas APIs do Firefox OS ainda não estão finalizadas esse livro será atualizado de modo a mostrar as novidades também.
 
-Ao contrário de alguns autores que buscam se excluir do texto vocês irão encontrar várias partes onde eu expresso minha opinião e tomo decisões que podem ir ao contrário do que outras pessoas pensam (a.k.a. vi vs emacs). Sempre que eu estiver falando da minha opinião eu deixarei isso claro no texto e espero feedback quando eu estiver errado. Quando avisado de algum erro, prometo revisar o texto!
+Ao contrário de alguns autores que buscam se excluir do texto, vocês irão encontrar várias partes onde eu expresso minha opinião e tomo decisões que podem ir ao contrário do que outras pessoas pensam (a.k.a. vi vs emacs). Sempre que estiver falando a minha opinião, deixarei isso claro no texto e espero feedback quando estiver errado. Quando avisado de algum erro, prometo revisar o texto!
 
-Estou fazendo esse livro no meu tempo livre e distribuindo ele como *Creative Commons* de graça via [Leanpub](http://leanpub.com) mas escrever um livro dá bastante trabalho e eu gostaria de poder dedicar mais espaço da minha vida a esse tipo de atividade. Quem achar bacana, pode ao baixar o livro mover o preço de zero reais até quinhentos dólares e então doar algum dinheiro. Quem preferir doar algum dinheiro via PayPal, minha conta é **agarzia@mac.com**. 
+Estou fazendo esse livro no meu tempo livre e distribuindo ele como *Creative Commons* de graça via [Leanpub](http://leanpub.com). Mas escrever um livro dá bastante trabalho e eu gostaria de poder dedicar mais espaço da minha vida a esse tipo de atividade. Quem achar bacana pode, ao baixar o livro, doar algum dinheiro selecionando a quantia no campo preço. Se preferir doar via PayPal, minha conta é **agarzia@mac.com**.
 
 Quem quiser me mandar comentários e críticas pode escrever para [guiarapidofxos@andregarzia.com](mailto:guiarapidofxos@andregarzia.com). Meu site é o [http://andregarzia.com](http://andregarzia.com/pages/pt/). Meu Twitter é o [@soapdog](http://twitter.com/soapdog).
 
