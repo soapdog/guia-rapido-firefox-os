@@ -44,7 +44,7 @@ Com o manifesto pronto podemos passar para o HTML.
 
 ## Estruturando o HTML
 
-Antes de colocarmos a mão na massa e montarmos o HTML utilizado pelo memos vamo falar rapidamente sobre o [Gaia Building Blocks](http://buildingfirefoxos.com/building-blocks) que é uma iniciativa de construir um conjunto de css e js reutilizáveis com o *look and feel* do Firefox OS para você aproveitar nos seus próprios apps.
+Antes de colocarmos a mão na massa e montarmos o HTML utilizado pelo memos vamos falar rapidamente sobre o [Gaia Building Blocks](http://buildingfirefoxos.com/building-blocks) que é uma iniciativa de construir um conjunto de css e js reutilizáveis com o *look and feel* do Firefox OS para você aproveitar nos seus próprios apps.
 
 No Firefox OS, assim como na web em geral, você não é obrigado a utilizar o *look and feel* do Firefox OS. Utilizar ou não os Building Blocks é uma decisão sua que passa por questões de *branding*, conveniência de uso, adequação ao que você precisa entre outras, o importante é entender que você não sofre nenhum tipo de repreensão no Firefox Marketplace por não utilizar a cara do Firefox OS. Eu como não sou um bom designer opto sempre por utilizar um pacote pronto como esse (ou contratar um designer).
 
