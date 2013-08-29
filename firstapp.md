@@ -166,7 +166,7 @@ Os dois arquivos devem ser postos em uma pasta chamada **js** ao lado das pastas
 
 ### model.js
 
-No Firefox OS utilizaremos o [IndexedDB](https://developer.mozilla.org/en-US/docs/IndexedDB/Using_IndexedDB) para guardar as notas. Como pedimos a permissão de *storage* podemos grava quantas notas a memória do aparelho permitir.
+No Firefox OS utilizaremos o [IndexedDB](https://developer.mozilla.org/en-US/docs/IndexedDB/Using_IndexedDB) para guardar as notas. Como pedimos a permissão de *storage* podemos gravar quantas notas a memória do aparelho permitir.
 
 A parte do código do model.js que mostrarei abaixo é responsável por abrir a conexão e criar o *storage* se necessário.
 
