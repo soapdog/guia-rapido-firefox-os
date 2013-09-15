@@ -2,11 +2,11 @@
 
 # Este é um livro beta
 
-Esse livro esta sendo produzido de forma ágil. A idéia é lançar atualizações constantes melhorando e expandido o conteúdo. Como algumas APIs do Firefox OS ainda não estão finalizadas esse livro será atualizado de modo a mostrar as novidades também.
+Esse livro esta sendo produzido de forma ágil. A ideia é lançar atualizações constantes melhorando e expandido o conteúdo. Como algumas APIs do Firefox OS ainda não estão finalizadas esse livro será atualizado de modo a mostrar as novidades também.
 
-Ao contrário de alguns autores que buscam se excluir do texto vocês irão encontrar várias partes onde eu expresso minha opinião e tomo decisões que podem ir ao contrário do que outras pessoas pensam (a.k.a. vi vs emacs). Sempre que eu estiver falando da minha opinião eu deixarei isso claro no texto e espero feedback quando eu estiver errado. Quando avisado de algum erro, prometo revisar o texto!
+Ao contrário de alguns autores que buscam se excluir do texto, vocês irão encontrar várias partes onde expresso a minha opinião e tomo decisões que podem ir ao contrário do que outras pessoas pensam (a.k.a. vi vs emacs). Sempre que estiver falando a minha opinião, deixarei isso claro no texto. Espero seu feedback quando estiver errado! Avisado de algum erro, prometo revisar o texto.
 
-Estou fazendo esse livro no meu tempo livre e distribuindo ele como *Creative Commons* de graça via [Leanpub](http://leanpub.com) mas escrever um livro dá bastante trabalho e eu gostaria de poder dedicar mais espaço da minha vida a esse tipo de atividade. Quem achar bacana, pode ao baixar o livro mover o preço de zero reais até quinhentos dólares e então doar algum dinheiro. Quem preferir doar algum dinheiro via PayPal, minha conta é **agarzia@mac.com**. 
+Estou fazendo esse livro no meu tempo livre e distribuindo ele como *Creative Commons* de graça via [Leanpub](http://leanpub.com). Mas escrever um livro dá bastante trabalho e gostaria de poder dedicar mais espaço da minha vida a esse tipo de atividade. Quem achar bacana pode, ao baixar o livro, doar algum dinheiro selecionando a quantia no campo preço. Se preferir doar via PayPal, minha conta é **agarzia@mac.com**.
 
 Quem quiser me mandar comentários e críticas pode escrever para [guiarapidofxos@andregarzia.com](mailto:guiarapidofxos@andregarzia.com). Meu site é o [http://andregarzia.com](http://andregarzia.com/pages/pt/). Meu Twitter é o [@soapdog](http://twitter.com/soapdog).
 
@@ -16,7 +16,7 @@ Para quem gostou da ilustração da capa, ela foi feita pelo ilustrador e design
 
 # Atualizações
 
-Ao baixar esse livro a partir da [página do livro no Leanpub](http://leanpub.com/guiarapidofirefoxos) você pode registrar o seu email e receber atualizações automaticamente. A idéia é atualizar esse livro várias vezes por mês. Se você conseguiu essa cópia de algum outro site ou através de alguém talvez seja melhor ir na página citada acima e se registrar para garantir que você fique sempre atualizado.
+Ao baixar esse livro a partir da [página do livro no Leanpub](http://leanpub.com/guiarapidofirefoxos) você pode registrar o seu email e receber atualizações automaticamente. A ideia é atualizar esse livro várias vezes por mês. Se você conseguiu essa cópia de algum outro site ou através de alguém, talvez seja melhor ir na página citada acima e se registrar para garantir que você fique sempre atualizado.
 
 
 # Agradecimentos
@@ -26,11 +26,11 @@ A toda a comunidade Mozilla Brasil que me recebeu tão bem e me aturou todo esse
 
 # Para quem é esse livro
 
-Esse livro é destinado para pessoas com conhecimentos intermediários de HTML, CSS e JavaScript que desejam construir aplicativos móveis utilizando tecnologias web. Ensinar HTML, CSS e JavaScript estão fora do escopo desse livro porém eu forneço links para bons livros de referência para quem precisar de uma forcinha.
+Esse livro é destinado para pessoas com conhecimentos intermediários de HTML, CSS e JavaScript que desejam construir aplicativos móveis utilizando tecnologias web. Ensinar HTML, CSS e JavaScript estão fora do escopo desse livro, porém eu forneço links para bons livros de referência para quem precisar de uma forcinha.
 
 # Boas Práticas vs Facilidade de Aprendizado
 
-Programadores experientes verão que nos códigos fontes apresentados nesse livro nem sempre as melhores práticas para programação estão sendo seguidas. Eu não estou encapsulando meu JavaScript em funções imediatas. Eu estou colocando coisas que não devia no objeto global. Isso tudo tem um motivo, facilitar o entendimento e a leitura do código. Esse livro é um guia introdutório e programadores experientes saberão onde e como modificar o código. Programadores novatos entenderão o que está escrito e não sofrerão nenhum problema pois tudo que está aqui funciona.
+Programadores experientes verão que nos códigos fontes apresentados nesse livro nem sempre as melhores práticas para programação estão sendo seguidas. Eu não estou encapsulando meu JavaScript em funções imediatas. Eu estou colocando coisas que não devia no objeto global. Isso tudo tem um motivo, facilitar o entendimento e a leitura do código. Esse livro é um guia introdutório. Programadores experientes saberão onde e como modificar o código. Programadores novatos entenderão o que está escrito e não sofrerão nenhum problema, pois tudo que está aqui funciona.
 
 Se você deseja aprofundar seus estudos de JavaScript e se tornar o **mestre ninja king size da web** eu vou passar uma lista de livros abaixo. 
 
@@ -54,8 +54,8 @@ O repositório do livro é [https://github.com/soapdog/guia-rapido-firefox-os](h
 
 ## Versão 0.1
 
-Esse é a primeira versão desse livro. Ele não passou na mão de nenhum editor e nem foi revisto. O que você está lendo aqui começou a ser escrito no dia 20 de Agosto de 2013 para ser distribuído durante a BrazilJS dias 22 e 23 de Agosto portanto você esta lendo uma versão bem crua porém eu estou partindo do princípio que é melhor ter a informação agora.
+Esse é a primeira versão desse livro. Ele não passou na mão de nenhum editor e nem foi revisto. O que você está lendo aqui começou a ser escrito no dia 20 de Agosto de 2013 para ser distribuído durante a BrazilJS dias 22 e 23 de Agosto. Portanto você esta lendo uma versão bem crua! Porém, estou partindo do princípio que é melhor ter a informação agora.
 
-Estou utilizando o sistema da [Leanpub](http://leanpub.com) para edição desse livro. Esse sistema ainda tem uns problemas de localização em partes do template do livro e erros de unicode no índice. Eu já enviei um patch de localização para a empresa e eles já estão cientes do problema do unicode no índice e prometeram resolver em breve (a.k.a. uma semana). Então dentro dessas limitações atuais do sistema peço desculpas por qualquer inconveniente causado por esses bugs, eles serão solucionados em breve.
+Estou utilizando o sistema da [Leanpub](http://leanpub.com) para edição desse livro. Esse sistema ainda tem uns problemas de localização em partes do template do livro e erros de unicode no índice. Eu já enviei um patch de localização para a empresa e eles já estão cientes do problema do unicode no índice e prometeram resolver em breve (a.k.a. uma semana). Então, dentro dessas limitações atuais do sistema, peço desculpas por qualquer inconveniente causado por esses bugs, eles serão solucionados em breve.
 
 {mainmatter}
