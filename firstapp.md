@@ -18,7 +18,7 @@ O primeiro passo é separarmos uma pasta para o aplicativo. Vamos chamar a pasta
 
 ## Criando o manifesto
 
-O manifesto do Memos é bem simples. Crie um arquivo chamado **manifest.webapp** no a pasta **memos**. Manifestos são arquivos do tipo [JSON](http://json.org) que descrevem um aplicativo nele colocamos o nome, a descrição, os ícones utilizados e muitas outras coisas importantes como quais permissões o programa necessita para funcionar e qual arquivo é utilizado para carregar o app.
+O manifesto do Memos é bem simples. Crie um arquivo chamado **manifest.webapp** na pasta **memos**. Manifestos são arquivos do tipo [JSON](http://json.org) que descrevem um aplicativo nele colocamos o nome, a descrição, os ícones utilizados e muitas outras coisas importantes como quais permissões o programa necessita para funcionar e qual arquivo é utilizado para carregar o app.
 
 Abaixo podemos ver o conteúdo do manifesto do Memos, atenção ao copiar pois é fácil errar uma vírgula e tornar o seu JSON inválido. Para validar o seu JSON você pode utilizar várias ferramentas, uma delas que é especifica para validação de manifestos que é o [http://appmanifest.org/](http://appmanifest.org/). Para aprender mais sobre manifestos visite [a página na MDN sobre manifestos](https://developer.mozilla.org/pt-BR/docs/Apps/Manifest).
 
@@ -44,7 +44,7 @@ Com o manifesto pronto podemos passar para o HTML.
 
 ## Estruturando o HTML
 
-Antes de colocarmos a mão na massa e montarmos o HTML utilizado pelo memos vamo falar rapidamente sobre o [Gaia Building Blocks](http://buildingfirefoxos.com/building-blocks) que é uma iniciativa de construir um conjunto de css e js reutilizáveis com o *look and feel* do Firefox OS para você aproveitar nos seus próprios apps.
+Antes de colocarmos a mão na massa e montarmos o HTML utilizado pelo memos vamos falar rapidamente sobre o [Gaia Building Blocks](http://buildingfirefoxos.com/building-blocks) que é uma iniciativa de construir um conjunto de css e js reutilizáveis com o *look and feel* do Firefox OS para você aproveitar nos seus próprios apps.
 
 No Firefox OS, assim como na web em geral, você não é obrigado a utilizar o *look and feel* do Firefox OS. Utilizar ou não os Building Blocks é uma decisão sua que passa por questões de *branding*, conveniência de uso, adequação ao que você precisa entre outras, o importante é entender que você não sofre nenhum tipo de repreensão no Firefox Marketplace por não utilizar a cara do Firefox OS. Eu como não sou um bom designer opto sempre por utilizar um pacote pronto como esse (ou contratar um designer).
 
@@ -77,7 +77,7 @@ Na *linha 01* declaramos o tipo do documento como sendo HTML 5. Da *linha 05 at�
 
 ### Construíndo a tela principal
 
-Agora podemos passar a implementação das telas. Como falamos anteriormente, cada tela do programa é uma **<section>** dentro do **<body>** do HTML que deve ter um atributo *role* com valor *application* tipo `<body role="application">`. Isso é utilizado pelos seletores dos CSS do Building Blocks. Vamos construír a primeira tela (e declarar o body).
+Agora podemos passar para implementação das telas. Como falamos anteriormente, cada tela do programa é uma **<section>** dentro do **<body>** do HTML que deve ter um atributo *role* com valor *application* tipo `<body role="application">`. Isso é utilizado pelos seletores dos CSS do Building Blocks. Vamos construír a primeira tela (e declarar o body).
 
 ~~~~~~~~
 <body role="application">
@@ -166,7 +166,7 @@ Os dois arquivos devem ser postos em uma pasta chamada **js** ao lado das pastas
 
 ### model.js
 
-No Firefox OS utilizaremos o [IndexedDB](https://developer.mozilla.org/en-US/docs/IndexedDB/Using_IndexedDB) para guardar as notas. Como pedimos a permissão de *storage* podemos grava quantas notas a memória do aparelho permitir.
+No Firefox OS utilizaremos o [IndexedDB](https://developer.mozilla.org/en-US/docs/IndexedDB/Using_IndexedDB) para guardar as notas. Como pedimos a permissão de *storage* podemos gravar quantas notas a memória do aparelho permitir.
 
 A parte do código do model.js que mostrarei abaixo é responsável por abrir a conexão e criar o *storage* se necessário.
 
