@@ -14,9 +14,9 @@ A versão estável atual do Firefox pode ser [obtida nessa página](http://getfi
 
 ## Instalando o Simulador do Firefox OS
 
-Após a instalação do Firefox, o próximo passo é a instalação do simulador do Firefox OS que será utilizado para testarmos nossos aplicativos. Com o Firefox instalado e rodando, vá no menu **Ferramentas** e selecione **Complementos**[^tools-add-ons] como pode ser visto na imagem abaixo:
+Após a instalação do Firefox, o próximo passo é a instalação do simulador do Firefox OS que será utilizado para testarmos nossos aplicativos. Com o Firefox instalado e rodando, vá no menu **Ferramentas** e selecione **Complementos**[^tools-add-ons], como pode ser visto na imagem abaixo:
 
-[^tools-add-ons]: Caso seu sistema esteja em ingles procure o menu **Tools** e então **Add-ons**.
+[^tools-add-ons]: Caso seu sistema esteja em inglês, procure o menu **Tools** e então **Add-ons**.
 
 ![Menu **Ferramentas** com menu **Complementos** selecionado](images/originals/tools.png)
 
