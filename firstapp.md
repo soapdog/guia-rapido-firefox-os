@@ -166,11 +166,11 @@ Os dois arquivos devem ser postos em uma pasta chamada **js**, ao lado das pasta
 
 ### model.js
 
-No Firefox OS utilizaremos o [IndexedDB](https://developer.mozilla.org/en-US/docs/IndexedDB/Using_IndexedDB) para guardar as notas. Como pedimos a permissão de *storage* podemos gravar quantas notas a memória do aparelho permitir.
+No Firefox OS utilizaremos o [IndexedDB](https://developer.mozilla.org/en-US/docs/IndexedDB/Using_IndexedDB) para guardar as notas. Como pedimos a permissão de *storage*, podemos gravar quantas notas a memória do aparelho permitir.
 
-A parte do código do model.js que mostrarei abaixo é responsável por abrir a conexão e criar o *storage* se necessário.
+A parte do código do model.js, que mostrarei abaixo, é responsável por abrir a conexão e criar o *storage* se for necessário.
 
-A> Importante: Esse código foi escrito para ser entendido facilmente e não representa as melhores práticas de programação para JavaScript. Variáveis globais são utilizadas (ARGH!) entre outros problemas. Fora isso o tratamento de erros é basicamente inexistente. O mais importante desse livro é ensinar o *worlflow* de como programar apps para Firefox OS.
+A> Importante: Esse código foi escrito para ser entendido facilmente e não representa as melhores práticas de programação para JavaScript. Variáveis globais são utilizadas (ARGH!), entre outros problemas. Fora isso, o tratamento de erros é basicamente inexistente. O mais importante desse livro é ensinar o *worlflow* de como programar apps para Firefox OS.
 
 ~~~~~~~
 var dbName = "memos";
