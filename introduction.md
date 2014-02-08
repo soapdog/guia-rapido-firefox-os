@@ -34,7 +34,7 @@ Outra diferença é que, ao contrário de plataformas anteriores, como o WebOS, 
 
 [^WA-anywhere]: Referência disto.
 
-A Mozilla não está implementando a WebAPI somente no Firefox OS, seus esforços também focam a implementação dela no Firefox para Desktop e no Firefox Mobile no Android. Assim, aplicativos construídos com base nessa API de cara estarão aptos a rodar onde quer que o Firefox esteja. E, em breve, em qualquer navegador, caso a WebAPI realmente vire um padrão.
+A Mozilla não está implementando a WebAPI somente no Firefox OS, seus esforços também focam a implementação dela no Firefox para Desktop e no Firefox Mobile no Android. Assim, aplicativos construídos com base nessa API estarão imediatamente aptos a rodar onde quer que o Firefox esteja. E, em breve, em qualquer navegador, caso a WebAPI realmente vire um padrão.
 
 ## Liberdade para desenvolvimento e distribuição
 
