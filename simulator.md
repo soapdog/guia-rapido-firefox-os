@@ -68,8 +68,8 @@ E a janela de permissão se parece com a foto abaixo.
 
 ![Não é a melhor foto do mundo mas mostra a janela de permissão (são 4:25 AM)](images/originals/simulator-remote-push.jpg)
 
-Com o aplicativo rodando no aparelho você pode utilizar *remote debugging* para conectar um console de javascript e depurar o seu app.
+Com o aplicativo rodando no aparelho, você pode utilizar *remote debugging* para conectar um console de javascript e depurar o seu app.
 
 ## Conclusão
 
-A conclusão é o simulador do Firefox OS é legal demais!!! Brincadeiras a parte, a essa altura do livro você ja tem uma boa idéia de como funciona o desenvolvimento de aplicativos para o Firefox OS por isso no próximo capítulo vamos ver como distribuir nosso aplicativos.
+A conclusão é que o simulador do Firefox OS é legal demais!!! Brincadeiras à parte, a essa altura do livro você já tem uma boa ideia de como funciona o desenvolvimento de aplicativos para o Firefox OS. Por isso, no próximo capítulo vamos ver como distribuir nosso aplicativos.
