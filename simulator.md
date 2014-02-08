@@ -56,7 +56,7 @@ Nada substitui a experiência de se testar em um aparelho de verdade. Enquanto n
 
 Você pode comprar um aparelho de desenvolvedor rodando Firefox OS na [loja da geeksphone](http://shop.geeksphone.com/en/). Eu recomendo o [Geeksphone Keon](http://www.geeksphone.com/), pois ele é mais similar aos aparelhos que estão sendo vendidos para os consumidores finais em termos de resolução e capacidade. Você pode também instalar o Firefox OS em alguns aparelhos que rodam Android, porém esse tipo de coisa é destinada somente a entusiastas que sabem muito bem o que estão fazendo e possuem mais bugs que as versões que rodam nos Geeksphone e ZTEs.
 
-Caso você possua um aparelho que rode o Firefox OS e esteja com seus drivers em dia você pode enviar aplicativos direto do simulador para o telefone conectado ao computador. Quando o simulador detecta que você plugou um telefone com Firefox OS ele mostra um aviso **Device Connected**.
+Caso você possua um aparelho que rode o Firefox OS e esteja com seus drivers em dia, você pode enviar aplicativos direto do simulador para o telefone conectado ao computador. Quando o simulador detecta que você plugou um telefone com Firefox OS, ele mostra um aviso **Device Connected**.
 
 ![Aparelho Conectado!](images/originals/simulator-device-connected.png)
 
