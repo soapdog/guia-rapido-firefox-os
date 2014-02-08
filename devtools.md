@@ -1,6 +1,6 @@
 # Ferramentas do Desenvolvedor
 
-O Firefox possui diversas ferramentas para auxiliar os desenvolvedores web a fazerem o seu trabalho. Muita gente ainda usa o [FireBug](https://addons.mozilla.org/pt-BR/firefox/addon/firebug/) e não sabe que o Firefox ja inclui ferramentas próprias. Nessa sessão vamos ver rapidamente algumas ferramentas que são muito úteis para quem está desenvolvendo apps.
+O Firefox possui diversas ferramentas para auxiliar os desenvolvedores web a fazerem o seu trabalho. Muita gente ainda usa o [FireBug](https://addons.mozilla.org/pt-BR/firefox/addon/firebug/) e não sabe que o Firefox já inclui ferramentas próprias. Nesta sessão vamos ver rapidamente algumas ferramentas que são muito úteis para quem está desenvolvendo apps.
 
 Quem estiver interessado em conhecer mais sobre essas ferramentas e o que mais virá por ai pode dar uma olhada na [página da MDN sobre ferramentas do desenvolvedor](https://developer.mozilla.org/en-US/docs/Tools).
 
