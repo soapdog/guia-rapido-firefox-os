@@ -157,12 +157,12 @@ Ao fecharmos essa **<section>** terminamos todas as telas do programa e o restan
 
 ## Construíndo o JavaScript
 
-Agora vamos programar de verdade e dar vida ao nosso app. Para efeitos de organização separei o código em dois arquivos de JavaScript:
+Agora vamos programar de verdade e dar vida ao nosso app. Para efeitos de organização, separei o código em dois arquivos de JavaScript:
 
-* **model.js:** que contém as rotinas para lidar com o armazenamento e alteração das notas porém não contém a lógica do programa ou algo relacionado a sua interface e tratamento de entrada de dados.
-* **app.js:** responsável por ligar os elementos do HTML às rotinas correspondentes e contém a lógica do app.
+* **model.js:** que contém as rotinas para lidar com o armazenamento e alteração das notas. Porém, ele não contém a lógica do programa ou algo relacionado a sua interface ou tratamento de entrada de dados.
+* **app.js:** responsável por ligar os elementos do HTML às rotinas correspondentes, além da lógica do app.
 
-Os dois arquivos devem ser postos em uma pasta chamada **js** ao lado das pastas **style** e **shared**.
+Os dois arquivos devem ser postos em uma pasta chamada **js**, ao lado das pastas **style** e **shared**.
 
 ### model.js
 
