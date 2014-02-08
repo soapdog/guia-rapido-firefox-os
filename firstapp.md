@@ -73,7 +73,7 @@ Antes de mais nada, copie as pastas **shared** e **style** para a pasta Memos, p
 </head>
 ~~~~~~~~
 
-Na *linha 01* declaramos o tipo do documento como sendo HTML 5. Da *linha 05 até a linha 15* incluímos os CSS dos diversos componentes que são utilizados no aplicativo tais como cabeçalhos, listas, áreas de entrada de dados entre outros.
+Na *linha 01* declaramos o tipo do documento como sendo HTML 5. Da *linha 05 até a linha 15* incluímos os CSS dos diversos componentes que são utilizados no aplicativo, tais como cabeçalhos, listas, áreas de entrada de dados, entre outros.
 
 ### Construíndo a tela principal
 
