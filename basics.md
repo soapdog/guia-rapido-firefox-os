@@ -73,7 +73,7 @@ Essa API é uma Web Activity. Para saber mais sobre esse tipo de API visite [est
 
 <<[Salvando um contato](code/webapi_samples/contact.js)
 
-Essa API cria um objeto com os dados do contato e salva ele para a agenda do telefone sem interferência do usuário e está disponível somente para aplicativos privilegiados. Esse padrão onde se cria um objeto com um callback de sucesso e um de erro é muito utilizado nas WebAPIs.
+Essa API cria um objeto com os dados do contato e salva ele na agenda do telefone, sem interferência do usuário, e está disponível somente para aplicativos privilegiados. Esse padrão, onde se cria um objeto com um callback de sucesso e um de erro, é muito utilizado nas WebAPIs.
 
 Para saber mais sobre a API de contatos, visite [a pagina da *Contacts API* no wiki da Mozilla](https://wiki.mozilla.org/WebAPI/ContactsAPI).
 
