@@ -1,6 +1,6 @@
 # Preparativos para Desenvolver Apps para o Firefox OS {#setup}
 
-Para construir e testar apps feitos para Firefox OS você não precisa de nada além de uma versão recente do Firefox, do complemento chamado Firefox OS Simulator e um bom editor de texto para programação[^editores].
+Para construir e testar apps feitos para Firefox OS você não precisa de nada além de uma versão recente do Firefox, do complemento chamado Firefox OS Simulator e de um bom editor de texto para programação[^editores].
 
 [^editores]: Existem vários editores bons com diferentes graus de complexidade e funcionalidades. Um muito popular que eu recomendo para quem ainda não possui um editor favorito é o [SublimeText](http://sublimetext.com/). Pessoalmente eu utilizo o [WebStorm](http://www.jetbrains.com/webstorm/) que é uma IDE completa para criação de web apps.
 
