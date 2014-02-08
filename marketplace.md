@@ -59,9 +59,9 @@ Após o envio do arquivo, ele será processado e um relatório com mais opções
 
 ![Depois do envio do arquivo zip](images/originals/marketplace-step-1_5.png)
 
-Como podemos ver na captura, esse programa que eu enviei não contém erros mas contém seis avisos. Fora isso podemos marcar os **requisitos mínimos** para que o app seja instalado. No caso desse exemplo, o último requisito, que fala sobre resolução de tela qHD deve ser desmarcado visto que esse aplicativo funciona em qualquer resolução.
+Como podemos ver na captura, esse programa que eu enviei não contém erros, mas contém seis avisos. Fora isso, podemos marcar os **requisitos mínimos** para que o app seja instalado. No caso desse exemplo, o último requisito, que fala sobre resolução de tela qHD, deve ser desmarcado, visto que esse aplicativo funciona em qualquer resolução.
 
-O próximo passo chamado **Passo #3: Detalhes** é onde você preenche as informações sobre o seu aplicativo tais como categoria, descrição, fornece capturas de tela entre outros.
+O próximo passo, chamado **Passo #3: Detalhes**, é onde você preenche as informações sobre o seu aplicativo, tais como categoria e descrição, e fornece capturas de tela.
 
 ![Preenchendo detalhes](images/originals/marketplace-step-3.png)
 
