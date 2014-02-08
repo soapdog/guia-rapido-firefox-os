@@ -26,7 +26,7 @@ Sempre que você fizer alguma alteração no aplicativo você pode apertar o bot
 
 ### Adicionando aplicativos hospedados
 
-Mesmo que o aplicativo que você pretende lançar como hospedado esteja dentro da mesma máquina que está rodando o simulador, você deve testá-lo utilizando um servidor web. Se você utilizar o procedimento descrito acima para testar um app hospedado pode ser que você tenha algum bug na configuração do seu servidor (tipo servir o manifesto com o MIME Type errado) que você não irá perceber.
+Mesmo que o aplicativo que você pretende lançar como hospedado esteja dentro da mesma máquina que está rodando o simulador, você deve testá-lo utilizando um servidor web. Se você utilizar o procedimento descrito acima para testar um app hospedado, pode ser que você tenha algum bug na configuração do seu servidor (tipo servir o manifesto com o MIME Type errado) que você não irá perceber.
 
 Muitos dos aplicativos hospedados não são exclusivos para Firefox OS e sim sites/webapps adaptáveis para o dispositivo que está acessando naquele momento. Esse tipo de site normalmente possui sistemas de backend que você não tem como testar direito com o procedimento de aplicativos empacotados portanto o ideal é testar a partir do servidor web. Para fazer isso você deve escrever o endereço do site ou do manifesto no campo de texto ao lado do botão **Add URL**.
 
