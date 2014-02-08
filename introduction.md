@@ -4,7 +4,7 @@
 
 ![Firefox OS](images/originals/firefox_os_simulator.png)
 
-O [Firefox OS](http://www.mozilla.org/pt-BR/firefox/os/) é a nova plataforma móvel livre desenvolvida pela [Mozilla](http://mozilla.org) e pelos seus parceiros. Aparelhos com Firefox OS já estão à venda em diversos países e serão lançados ainda esse ano no Brasil. 
+O [Firefox OS](http://www.mozilla.org/pt-BR/firefox/os/) é a nova plataforma móvel livre desenvolvida pela [Mozilla](http://mozilla.org) e pelos seus parceiros. Aparelhos com Firefox OS já estão à venda em diversos países, inclusive no Brasil. 
 
 Voltado inicialmente para mercados emergentes, o Firefox OS tem como objetivo trazer o próximo milhão de pessoas para a web. Para conseguir isso, os aparelhos com Firefox OS são construídos para serem ótimos como *o primeiro smartphone* de alguém e tem preços muito competitivos. No Brasil, 78% das pessoas[^PT-anywhere] ainda estão usando *feature phones*, o objetivo é ser uma alternativa interessante para essas pessoas migrarem desses aparelhos para smartphones rodando Firefox OS. 
 
