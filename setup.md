@@ -8,7 +8,7 @@ Para construir e testar apps feitos para Firefox OS você não precisa de nada a
 
 Diferentes navegadores possuem diferentes motores de renderização e execução de JavaScript. O Google Chrome, o Opera e o Safari utilizam o motor conhecido como WebKit (ou Blink que é um fork do WebKit). O Firefox utiliza o motor chamado Gecko, seja no desktop, no Android ou no Firefox OS. Portanto, para desenvolver apps para Firefox OS é melhor utilizar o Firefox para Desktop, pois ambos utilizam o mesmo sistema de renderização e execução de JavaScript.
 
-Além disso, a Mozilla disponibiliza um simulador do Firefox OS que funciona como um complemento do Firefox portanto, é necessário instalar o Firefox para desktop para poder rodar o simulador do Firefox OS.
+Além disso, a Mozilla disponibiliza um simulador do Firefox OS que funciona como um complemento do Firefox. Portanto, é necessário instalar o Firefox para desktop para poder rodar o simulador do Firefox OS.
 
 A versão estável atual do Firefox pode ser [obtida nessa página](http://getfirefox.com) e então basta seguir as instruções para instalar no seu sistema operacional preferido.
 
