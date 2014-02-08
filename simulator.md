@@ -32,7 +32,7 @@ Muitos dos aplicativos hospedados não são exclusivos para Firefox OS e sim sit
 
 ![Adicionando um app hospedado ao simulador](images/originals/simulator-add-url.png)
 
-Ao clicar no botão, o manifesto é verificado e caso esteja correto o aplicativo é adicionado ao simulador que prontamente é iniciado com o app rodando. Assim como o procedimento para apps empacotados o dashboard mostrará se der algum erro no manifesto.
+Ao clicar no botão, o manifesto é verificado e, caso esteja correto, o aplicativo é adicionado ao simulador que é prontamente iniciado com o app rodando. Assim como o procedimento para apps empacotados, o dashboard mostrará se der algum erro no manifesto.
 
 Sempre que você fizer alguma alteração no aplicativo você pode apertar o botão **Refresh** para atualizar o app no simulador.
 
