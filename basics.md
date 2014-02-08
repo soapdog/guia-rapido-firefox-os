@@ -47,7 +47,7 @@ Existem três níveis de acesso ao hardware no Firefox OS. Cada nível possui AP
 
 Em geral a maioria dos aplicativos não precisa de nada além do que o acesso normal oferece. Porém, às vezes é necessário um acesso privilegiado para podermos utilizar certas APIs. Quando criamos um aplicativo privilegiado e enviamos ele ao Firefox Marketplace o processo de aprovação é mais rigoroso (e isso é bom).
 
-Na [página sobre as WebAPIs no wiki da Mozilla](https://wiki.mozilla.org/WebAPI) podemos ver quais APIs estão implementadas em quais plataformas e qual o nível de acesso necessário para utiliza-las.
+Na [página sobre as WebAPIs no wiki da Mozilla](https://wiki.mozilla.org/WebAPI) podemos ver quais APIs estão implementadas em quais plataformas e qual o nível de acesso necessário para utilizá-las.
 
 ![Níveis de acesso para cada API](images/originals/webapi-access.png)
 
