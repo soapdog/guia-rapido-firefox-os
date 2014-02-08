@@ -20,7 +20,7 @@ O primeiro passo é separarmos uma pasta para o aplicativo. Vamos chamar a pasta
 
 O manifesto do Memos é bem simples. Crie um arquivo chamado **manifest.webapp** na pasta **memos**. Manifestos são arquivos do tipo [JSON](http://json.org) que descrevem um aplicativo. Nele, colocamos o nome, a descrição, os ícones utilizados e muitas outras coisas importantes, como quais permissões o programa necessita para funcionar e qual arquivo é utilizado para carregar o app.
 
-Abaixo podemos ver o conteúdo do manifesto do Memos, atenção ao copiar pois é fácil errar uma vírgula e tornar o seu JSON inválido. Para validar o seu JSON você pode utilizar várias ferramentas, uma delas que é especifica para validação de manifestos que é o [http://appmanifest.org/](http://appmanifest.org/). Para aprender mais sobre manifestos visite [a página na MDN sobre manifestos](https://developer.mozilla.org/pt-BR/docs/Apps/Manifest).
+Abaixo podemos ver o conteúdo do manifesto do Memos. Matenha a atenção ao copiar, pois é fácil errar uma vírgula e tornar o seu JSON inválido. Para validar o seu JSON, você pode utilizar várias ferramentas. Uma delas, que é especifica para validação de manifestos, é o [http://appmanifest.org/](http://appmanifest.org/). Para aprender mais sobre manifestos visite [a página na MDN sobre manifestos](https://developer.mozilla.org/pt-BR/docs/Apps/Manifest).
 
 <<[Manifesto do programa Memos (*manifest.webapp*)](code/memos/manifest.webapp)
 
