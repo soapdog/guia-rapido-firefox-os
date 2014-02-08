@@ -456,7 +456,7 @@ window.onload = function () {
 };
 ~~~~~~~
 
-Agora todos os nossos arquivos estão prontos e podemos testar o aplicativo no simulador.
+Agora todos os nossos arquivos estão prontos, podemos testar o aplicativo no simulador.
 
 ## Testando o app no simulador
 
