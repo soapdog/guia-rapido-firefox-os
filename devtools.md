@@ -33,9 +33,9 @@ As ferramentas de desenvolvedor do Firefox são similares às do FireBug e do Go
 
 Além do *console de JavaScript* existem várias outras ferramentas como um [*editor de estilo*](https://developer.mozilla.org/en-US/docs/Tools/Style_Editor), [*monitor de rede*](https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor), [*profiler de JavaScript*](https://developer.mozilla.org/en-US/docs/Tools/Profiler), [*depurador de JavaScript*](https://developer.mozilla.org/en-US/docs/Tools/Debugger), [*inspetor de páginas*](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector) entre outros.
 
-Como vimos no aplicativo que construímos no capítulo anterior, o console pode ser utilizado para verificar o andamento do nosso programa. Existem muitos desenvolvedores web que ainda utilizam *alerts()* espalhados pelo código para debugar coisas, aprender a utilizar as ferramentas do desenvolvedor é um passo muito importante na formação de qualquer um (sem contar que poupa um tempo desgraçado).
+Como vimos no aplicativo que construímos no capítulo anterior, o console pode ser utilizado para verificar o andamento do nosso programa. Existem muitos desenvolvedores web que ainda utilizam *alerts()* espalhados pelo código para debugar coisas. Aprender a utilizar as ferramentas do desenvolvedor é um passo muito importante na formação de qualquer um (sem contar que poupa um tempo desgraçado).
 
-Uma ferramenta que vale um destaque é o [*depurador remoto*](https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging) que permite que você conecte um telefone rodando Android ou Firefox OS ao seu computador e utilize as ferramentas de desenvolvedor do seu computador para depurar o que esta rodando no aparelho móvel.
+Uma ferramenta que vale um destaque é o [*depurador remoto*](https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging), que permite que você conecte um telefone rodando Android ou Firefox OS ao seu computador e utilize as ferramentas de desenvolvedor do seu computador para depurar o que esta rodando no aparelho móvel.
 
 ## Conclusão
 
