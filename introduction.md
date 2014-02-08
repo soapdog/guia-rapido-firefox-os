@@ -28,7 +28,7 @@ O Firefox OS é basicamente uma extensão móvel da web onde o HTML5 está em pr
 
 Outras plataformas anteriores também tentaram criar sistemas operacionais cuja criação de aplicativos estava baseada em tecnologias web. Assim que o iPhone foi lançado, a única maneira de criar apps era através de webapps. O WebOS também utilizava HTML, CSS e JavaScript para a criação de apps. O que diferencia o Firefox OS dessas plataformas é que ele oferece acesso ao hardware e a componentes do sistema via JavaScript. No iOS os webapps não tem esse tipo de acesso e portanto apps baseados *apenas em web* se tornam cidadãos de segunda classe, incapazes de competir com aplicativos nativos. 
 
-Ao dizer acesso ao hardware estamos falando de coisas como por exemplo acessar os contatos do telefone, enviar SMS, acessar a câmera e as fotos do aparelho. No Firefox OS, graças a coleção de APIs chamadas de [WebAPI](https://wiki.mozilla.org/WebAPI), o desenvolvedor pode aproveitar todas essas funcionalidades utilizando nada além das tecnologias do HTML5. 
+Ao dizer acesso ao hardware estamos falando de coisas como por exemplo acessar os contatos do telefone, enviar SMS, acessar a câmera e as fotos do aparelho. No Firefox OS, graças à coleção de APIs chamadas de [WebAPI](https://wiki.mozilla.org/WebAPI), o desenvolvedor pode aproveitar todas essas funcionalidades utilizando nada além das tecnologias do HTML5. 
 
 Outra diferença é que, ao contrário de plataformas anteriores, como o WebOS, que também promovia o acesso ao hardware via JavaScript, a Mozilla está trabalhando em conjunto com o W3C e outros grupos para que a WebAPI se torne um padrão aberto da web[^WA-anywhere] e possa ser implementado por outros vendedores, como o Google e a Apple. Conforme as APIs forem implementadas pelos demais fabricantes, seus aplicativos precisarão, caso implementem as tecnologias web, de cada vez menos mudanças para funcionar em plataformas diferentes.
 
@@ -44,6 +44,6 @@ A ideia principal é que você não fique preso a Mozilla para nada. Se quiser p
 
 ## Conclusão
 
-Em resumo o HTML 5 chegou para ficar e melhorar a cada dia que passa. O Firefox OS que é o novo sistema operacional móvel da Mozilla totalmente livre e construído as claras oferece uma implementação robusta do HTML 5 e vai além ao oferecer APIs de acesso ao hardware via JavaScript. Essas APIs estão sendo padronizadas junto aos órgãos competentes e promovidas para adoção por outros fabricantes.
+Em resumo o HTML 5 chegou para ficar e melhorar a cada dia que passa. O Firefox OS que é o novo sistema operacional móvel da Mozilla totalmente livre e construído às claras oferece uma implementação robusta do HTML 5 e vai além ao oferecer APIs de acesso ao hardware via JavaScript. Essas APIs estão sendo padronizadas junto aos órgãos competentes e promovidas para adoção por outros fabricantes.
 
 No próximo capítulo vamos ver o que é necessário para criar aplicativos para Firefox OS. Vamos juntos que em breve já teremos um app rodando.
