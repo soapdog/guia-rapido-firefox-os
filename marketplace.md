@@ -8,16 +8,16 @@ Para distribuir apps no marketplace você precisa estar identificado via [Mozill
 
 ## Checklist antes de pensar em enviar o seu app
 
-Todo aplicativo que é enviado para o marketplace passa por um processo de aprovação. Aplicativos normais passam por um processo menos rigoroso que aplicativos privilegiados pois utilizam APIs menos sensíveis. Antes de enviar o aplicativo familiarize-se com [os critérios de avaliação do marketplace](https://developer.mozilla.org/en-US/docs/Web/Apps/Publishing/Marketplace_review_criteria). Os pontos mais importantes são:
+Todo aplicativo que é enviado para o marketplace passa por um processo de aprovação. Aplicativos normais passam por um processo menos rigoroso que aplicativos privilegiados, pois utilizam APIs menos sensíveis. Antes de enviar o aplicativo, familiarize-se com [os critérios de avaliação do marketplace](https://developer.mozilla.org/en-US/docs/Web/Apps/Publishing/Marketplace_review_criteria). Os pontos mais importantes são:
 
 * O Firefox OS não tem um botão de voltar como o navegador ou o Android. Se dentro da sua app o usuário navegar para algum ponto e não tiver como voltar mais (ficar preso em uma tela), seu app será rejeitado.
-* Seu app deve conter os ícones 60x60 utilizados pelo Firefox OS e uma descrição detalhada do que ele faz no manifesto.
+* Seu app deve conter os ícones 60x60, utilizados pelo Firefox OS, e uma descrição detalhada do que ele faz no manifesto.
 * Seu aplicativo deve fazer o que diz a descrição dele. Você não pode falar que o seu app faz uma coisa que ele não faz.
-* Se o seu app pede uma permissão para alguma funcionalidade ele deve usá-la. Marcar o app como privilegiado e não utilizar nada das APIs privilegiadas fará com que o seu app seja rejeitado com um pedido para alterar o tipo para normal.
+* Se o seu app pede uma permissão para alguma funcionalidade, ele deve usá-la. Marcar o app como privilegiado e não utilizar nada das APIs privilegiadas fará com que o seu app seja rejeitado com um pedido para alterar o tipo para normal.
 * Seu app precisa ter uma política de privacidade bem explicada no marketplace.
-* O manifesto e o aplicativo devem vir do mesmo domínio no caso de apps hospedados.
+* O manifesto e o aplicativo devem vir do mesmo domínio, no caso de apps hospedados.
 
-Existem outros critérios como mostrado nos links acima. Vale a pena estudar esses critérios antes de enviar o app afinal perde-se muito tempo tendo o aplicativo rejeitado por uma bobagem que você resolve em cinco minutos.
+Existem outros critérios, como mostrado nos links acima. Vale a pena estudar esses critérios antes de enviar o app. Afinal, perde-se muito tempo tendo o aplicativo rejeitado por uma bobagem que você resolve em cinco minutos.
 
 ## Preparando seu app para envio
 
