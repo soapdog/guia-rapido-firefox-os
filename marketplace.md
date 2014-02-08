@@ -2,7 +2,7 @@
 
 ![Firefox Marketplace](images/originals/marketplace.png)
 
-O [Firefox Marketplace](http://marketplace.firefox.com) é o mercadinho do Firefox onde você pode pegar ou comprar apps para o Firefox OS, Firefox Desktop e Firefox para Android. Ele é o principal canal para distribuição de aplicativos para Firefox OS porém você não precisa usá-lo se não quiser.
+O [Firefox Marketplace](http://marketplace.firefox.com) é o mercadinho do Firefox onde você pode pegar ou comprar apps para o Firefox OS, Firefox Desktop e Firefox para Android. Ele é o principal canal para distribuição de aplicativos para Firefox OS, porém você não precisa usá-lo se não quiser.
 
 Para distribuir apps no marketplace você precisa estar identificado via [Mozilla Persona](https://login.persona.org/about). Basta clicar **Sign Up** e seguir as instruções. Uma vez identificado, você esta pronto para enviar apps para o Firefox Marketplace.
 
