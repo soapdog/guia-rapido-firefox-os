@@ -18,7 +18,7 @@ Para adicionar um aplicativo empacotado devemos clicar no botão **Add Directory
 
 ![Mostrando o botão utilizado para adicionar aplicativos empacotados ao simulador](images/originals/simulator-add-directory.png)
 
-Ao clicar no botão destacado na imagem, o Firefox abre uma janela para seleção de arquivos. Nessa janela você deve navegar no seu HD e localizar o **arquivo de manifesto** do aplicativo que deseja adicionar. Se tudo ocorrer bem, o app sera adicionado e o simulador ligará com o app em execução. Caso tenha algo de errado com o seu manifesto o simulador irá avisar.
+Ao clicar no botão destacado na imagem, o Firefox abre uma janela para seleção de arquivos. Nessa janela, você deve navegar no seu HD e localizar o **arquivo de manifesto** do aplicativo que deseja adicionar. Se tudo ocorrer bem, o app será adicionado e o simulador ligará com o app em execução. Caso tenha algo de errado com o seu manifesto o simulador irá avisar.
 
 ![Exemplo de manifesto inválido](images/originals/simulator-invalid-manifest.png)
 
