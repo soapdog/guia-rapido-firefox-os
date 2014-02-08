@@ -30,13 +30,13 @@ Vamos explicar cada um dos campos do manifesto acima.
 |-----------|-----------------------------------------------------------------------------------|
 |name		|Esse campo dita o nome do aplicativo.                                              |
 |version	|Essa é a versão atual do seu aplicativo. Mudar a versão causa um update no app.    |
-|launch_path|Qual arquivo que deve ser carregado quando o seu app é iniciado                    |
-|permissions|Quais permissões seu app precisa. Mais informações sobre permissões adiante		|
-|developer  |Quem desenvolveu esse aplicativo 													|
-|icons		|Os ícones para cada tamanho necessário 											|
+|launch_path|Qual arquivo que deve ser carregado quando o seu app é iniciado.                   |
+|permissions|Quais permissões seu app precisa. Mais informações sobre permissões adiante.		|
+|developer  |Quem desenvolveu esse aplicativo. 													|
+|icons		|Os ícones para cada tamanho necessário. 											|
 
 
-A parte mais interessante desse manifesto é a entrada de permissões onde pedimos a permissão para *storage* que permite que utilizemos o IndexedDB sem limitação de espaço[^storage-permission] (graças a isso podemos armazenar quantas notas quisermos no nosso programa).
+A parte mais interessante desse manifesto é a entrada de permissões. Nela, pedimos a permissão para *storage*, que permite que utilizemos o IndexedDB sem limitação de espaço[^storage-permission] (graças a isso podemos armazenar quantas notas quisermos no nosso programa).
 
 [^storage-permission]: Para saber mais sobre as permissões que você pode pedir olhe [a página na MDN sobre permissões de aplicativos](https://developer.mozilla.org/en-US/docs/Web/Apps/App_permissions).
 
