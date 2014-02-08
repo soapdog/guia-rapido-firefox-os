@@ -38,7 +38,7 @@ Sempre que você fizer alguma alteração no aplicativo você pode apertar o bot
 
 ## Debugando
 
-Com o aplicativo rodando no simulador já estamos aptos a depurá-lo. Para isso basta clicar no botão **Connect** ao lado da entrada do aplicativo no dashboard do simulador. Isso irá abrir o simulador com o aplicativo escolhido rodando e conectar o **Console de Javascript** no app. Abaixo podemos ver qual botão apertar.
+Com o aplicativo rodando no simulador já estamos aptos a depurá-lo. Para isso, basta clicar no botão **Connect**, ao lado da entrada do aplicativo, no dashboard do simulador. Isso irá abrir o simulador com o aplicativo escolhido rodando e conectar o **Console de Javascript** no app. Abaixo podemos ver qual botão apertar.
 
 ![Qual botão apertar para depurar um app](images/originals/simulator-press-connect.png)
 
