@@ -40,7 +40,7 @@ A parte mais interessante desse manifesto é a entrada de permissões. Nela, ped
 
 [^storage-permission]: Para saber mais sobre as permissões que você pode pedir olhe [a página na MDN sobre permissões de aplicativos](https://developer.mozilla.org/en-US/docs/Web/Apps/App_permissions).
 
-Com o manifesto pronto podemos passar para o HTML.
+Com o manifesto pronto, podemos passar para o HTML.
 
 ## Estruturando o HTML
 
