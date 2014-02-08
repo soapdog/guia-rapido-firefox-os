@@ -342,7 +342,7 @@ function newMemo() {
 }
 ~~~~~~~~
 
-Primeiro declaramos algumas variáveis globais para armazenar umas referências a alguns elementos que pretendemos utilizar dentro das funções. Das variáveis globais, a mais interessante é `currentMemo` que é um objeto que guarda qual nota o usuário está vendo.
+Primeiro, declaramos algumas variáveis globais para armazenar referências a alguns elementos que pretendemos utilizar dentro das funções. Das variáveis globais, a mais interessante é `currentMemo`, que é um objeto que guarda qual nota o usuário está vendo.
 
 As funções `showMemoDetail()` e `displayMemo()` funcionam juntas, a primeira carrega a nota escolhida em `currentMemo` e manipula o CSS dos elementos para que a tela de visualização/edição seja mostrada e a segunda se encarrega de pegar o conteúdo de `currentMemo` e adicionar a tela. Dava para fazer as duas coisas dentro de uma função só mas quando eu estava experimentando com esse app eu separei as funções para que a inserção do conteúdo da nota na interface ficasse separado da manipulação das telas, desta forma eu pude brincar mais com variações das funções.
 
