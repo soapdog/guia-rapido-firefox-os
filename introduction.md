@@ -10,7 +10,7 @@ Voltado inicialmente para mercados emergentes, o Firefox OS tem como objetivo tr
 
 [^PT-anywhere]: Referência do dado.
 
-Infelizmente em mercados emergentes como o Brasil, smartphones com uma performance aceitável ainda são muito caros. Pessoas podem comprar smartphones baratos mas as plataformas utilizadas atualmente para esse tipo de aparelho estão sendo construídas com foco em smartphones de alta performance, deixando esses aparelhos baratos com uma performance ruim e indesejável. 
+Infelizmente em mercados emergentes como o Brasil, smartphones com uma performance aceitável ainda são muito caros. Pessoas podem comprar smartphones baratos mas as plataformas utilizadas atualmente para esse tipo de aparelho estão sendo construídas com foco em smartphones de alto desempenho, deixando esses aparelhos baratos com uma performance ruim e indesejável. 
 
 Outro fator importante quando falamos de Firefox OS é que os atuais sistemas móveis mais populares são pequenas ilhas proprietárias onde você está amarrado as vontades do fabricante que possui privilégios de mandar e desmandar na plataforma. Nesses sistemas proprietários você em geral só pode distribuir seus aplicativos em canais autorizados e o fabricante fica com um percentual de todas as transações financeiras que passam pelo aplicativo. 
 
