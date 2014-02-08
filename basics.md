@@ -41,9 +41,9 @@ Não existe uma regra sobre qual tipo de aplicativo usar. Pessoalmente, prefiro 
 
 Existem três níveis de acesso ao hardware no Firefox OS. Cada nível possui APIs que pode ou não acessar.
 
-* **Normal:** Os aplicativos normais possuem acesso as WebAPIs mais frequentemente utilizadas tais como geolocalização, pegar foto da câmera. Aplicativos hospedados e aplicativos empacotados que não declarem um tipo no manifesto são por definição normais.
-* **Privilegiado:** Um aplicativo privilegiado tem acesso a todas as APIs disponíveis para um app normal e mais algumas. Uma exigência é que todos os aplicativos privilegiados sejam empacotados, ou seja, você não pode ter um aplicativo hospedado que seja privilegiado. Esses aplicativos tem acesso a APIs mais "profundas" do Firefox OS como por exemplo API de contatos sem interação com usuário.
-* **Certificado:** Aplicativos certificados tem acesso total ao hardware e só podem ser construídos pela Mozilla e seus parceiros de hardware. Eles tem acesso por exemplo ao sistema de telefonia. Um exemplo de aplicativo certificado é o discador do Firefox OS.
+* **Normal:** Os aplicativos normais possuem acesso às WebAPIs mais frequentemente utilizadas, tais como geolocalização e obter foto da câmera. Aplicativos hospedados e aplicativos empacotados que não declarem um tipo no manifesto são, por definição, normais.
+* **Privilegiado:** Um aplicativo privilegiado tem acesso a todas as APIs disponíveis para um app normal e mais algumas. Uma exigência é que todos os aplicativos privilegiados sejam empacotados, ou seja, você não pode ter um aplicativo hospedado que seja privilegiado. Esses aplicativos têm acesso a APIs mais "profundas" do Firefox OS, como a API de contatos sem interação com usuário.
+* **Certificado:** Aplicativos certificados têm acesso total ao hardware e só podem ser construídos pela Mozilla e seus parceiros de hardware. Eles têm acesso, por exemplo, ao sistema de telefonia. Um exemplo de aplicativo certificado é o discador do Firefox OS.
 
 Em geral a maioria dos aplicativos não precisa de nada além do que o acesso normal oferece porém as vezes é necessário um acesso privilegiado para podermos utilizar certas APIs. Quando criamos um aplicativo privilegiado e enviamos ele ao Firefox Marketplace o processo de aprovação é mais rigoroso (e isso é bom).
 
