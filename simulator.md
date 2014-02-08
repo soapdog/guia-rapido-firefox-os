@@ -8,7 +8,7 @@ Para saber mais sobre o simulador visite [a página na MDN sobre o simulador](ht
 
 ## Adicionando Apps
 
-Você pode adicionar aplicativos empacotados ou hospedados no simulador. O procedimento é similar porém com diferenças sutis por isso vamos ver cada um deles separadamente.
+Você pode adicionar aplicativos empacotados ou hospedados no simulador. O procedimento é similar, porém com diferenças sutis. Por isso, vamos ver cada um deles separadamente.
 
 ### Adicionando aplicativos empacotados
 
