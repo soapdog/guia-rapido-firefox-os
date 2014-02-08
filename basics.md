@@ -30,7 +30,7 @@ De posse dos seus arquivos HTML, CSS, JavaScript e de um arquivo de manifesto, v
 
 No Firefox OS existem dois tipos de aplicativos: aplicativos hospedados e aplicativos empacotados. 
 
-* **Aplicativos Hospedados:** ficam armazenados em um servidor web assim como uma site e quando utilizados pelo usuário é feito um acesso ao servidor remoto caso o app não esteja no cache.
+* **Aplicativos Hospedados:** ficam armazenados em um servidor web, assim como um site. Quando utilizados pelo usuário, é feito um acesso ao servidor remoto caso seus arquivos não estejam no cache.
 * **Aplicativos Empacotados:** são distribuídos como um arquivo zip e são copiados para o aparelho durante a instalação.
 
 Existem prós e contras para as duas soluções. Aplicativos hospedados são mais fáceis de atualizar pois basta trocar os arquivos no servidor porém são mais difíceis de fazer funcionar offline pois precisam da utilização do [**appcache**](https://developer.mozilla.org/pt-BR/docs/HTML/Using_the_application_cache) para isso. Outro ponto é que mesmo utilizando o appcache, o aplicativo demora um pouco mais para ligar pois o cache precisa ser verificado. Aplicativos empacotados por outro lado estão no telefone desde a instalação e não precisam verificar cache nem nada antes de executar porém a atualização é mais complexa e incluí o envio da nova versão do app para o Firefox Marketplace e/ou a criação de rotinas de atualização dentro do mesmo caso você distribua o app fora do marketplace.
