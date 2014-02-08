@@ -39,7 +39,7 @@ Não existe uma regra sobre qual tipo de aplicativo usar. Pessoalmente, prefiro 
 
 ## Níveis de acesso ao hardware
 
-Existem três níveis de acesso ao hardware no Firefox OS e cada nível possui APIs que pode e que não pode acessar.
+Existem três níveis de acesso ao hardware no Firefox OS. Cada nível possui APIs que pode ou não acessar.
 
 * **Normal:** Os aplicativos normais possuem acesso as WebAPIs mais frequentemente utilizadas tais como geolocalização, pegar foto da câmera. Aplicativos hospedados e aplicativos empacotados que não declarem um tipo no manifesto são por definição normais.
 * **Privilegiado:** Um aplicativo privilegiado tem acesso a todas as APIs disponíveis para um app normal e mais algumas. Uma exigência é que todos os aplicativos privilegiados sejam empacotados, ou seja, você não pode ter um aplicativo hospedado que seja privilegiado. Esses aplicativos tem acesso a APIs mais "profundas" do Firefox OS como por exemplo API de contatos sem interação com usuário.
