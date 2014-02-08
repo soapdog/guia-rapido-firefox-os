@@ -429,7 +429,7 @@ function refreshMemoList() {
 }
 ~~~~~~~~
 
-A função `refreshMemoList()` modifica o DOM ao construir elemento por elemento a lista de notas contidas no banco de dados. Seria muito mais fácil utilizar uma template com handlebars ou coisa semelhante mas como esse é um app *vanilla javascript* fizemos tudo na mão. Essa função é chamada pela `showMemoList()` que foi mostrada anteriormente.
+A função `refreshMemoList()` modifica o DOM ao construir, elemento por elemento, a lista de notas contidas no banco de dados. Seria muito mais fácil utilizar uma template com handlebars ou coisa semelhante, mas como esse é um app *vanilla javascript*, fizemos tudo na mão. Essa função é chamada pela `showMemoList()` que foi mostrada anteriormente.
 
 Essas são todas as funções do nosso programa. A única parte de código que falta é a inicialização dos eventos e a chamada inicial para `refreshMemoList()`.
 
