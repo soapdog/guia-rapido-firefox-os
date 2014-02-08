@@ -51,7 +51,7 @@ Na [página sobre as WebAPIs no wiki da Mozilla](https://wiki.mozilla.org/WebAPI
 
 ![Níveis de acesso para cada API](images/originals/webapi-access.png)
 
-Como podemos ver na imagem acima, o acesso a *Geolocation API* está disponível para todos os aplicativos enquanto a API *WIFI Information API* está disponível somente para aplicativos privilegiados.
+Como podemos ver na imagem acima, o acesso à *Geolocation API* está disponível para todos os aplicativos, enquanto a API *WIFI Information API* está disponível somente para aplicativos privilegiados.
 
 ## As WebAPIs
 
