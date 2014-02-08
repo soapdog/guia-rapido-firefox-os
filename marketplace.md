@@ -65,18 +65,18 @@ O próximo passo, chamado **Passo #3: Detalhes**, é onde você preenche as info
 
 ![Preenchendo detalhes](images/originals/marketplace-step-3.png)
 
-Após preencher os detalhes o processo de envio está concluído e ai basta aguardar a aprovação dos revisores do marketplace. Parabéns você tem um aplicativo no Firefox OS!!!
+Após preencher os detalhes, o processo de envio está concluído e aí basta aguardar a aprovação dos revisores do marketplace. Parabéns, você tem um aplicativo no Firefox OS!!!
 
 Na página de [Gerência de Aplicativos](https://marketplace.firefox.com/developers/submissions) você pode verificar o status dos seus envios e alterar detalhes se necessário.
 
-Para saber mais sobre o envio de aplicativos para o Firefox Marketplace leia [esse artigo na central do desenvolvedor do Firefox OS](https://marketplace.firefox.com/developers/docs/submission).
+Para saber mais sobre o envio de aplicativos para o Firefox Marketplace, leia [esse artigo na central do desenvolvedor do Firefox OS](https://marketplace.firefox.com/developers/docs/submission).
 
 ## Conclusão
 
-Parabééééns!!!! Você agora tem um aplicativo no Firefox Marketplace, você esta desbravando um mercado todo novo! 
+Parabééééns!!!! Você agora tem um aplicativo no Firefox Marketplace. Você esta desbravando um mercado todo novo! 
 
-Espero que tenha gostado desse guia rápido. Eu pretendo atualizar esse guia constantemente (inclusive achando um bom editor para consertar meu analfabetismo) portanto fique atento para novidades. Se você baixou esse livro do Leanpub então fique tranquilo que você será avisado das atualizações.
+Espero que tenha gostado deste guia rápido. Eu pretendo atualizar este guia constantemente (inclusive achando um bom editor para consertar meu analfabetismo). Portanto, fique atento para novidades. Se você baixou este livro do Leanpub, então fique tranquilo que você será avisado das atualizações.
 
-Não deixe de me dar algum feedback. Eu fiquei a noite inteira acordado escrevendo esse livro, ou seja, eu realmente gosto desse projeto! Eu fico constantemente olhando o Twitter onde minha conta é [@soapdog](http://twitter.com/soapdog).
+Não deixe de me dar algum feedback. Eu fiquei a noite inteira acordado escrevendo este livro, ou seja, eu realmente gosto deste projeto! Eu fico constantemente olhando o Twitter onde minha conta é [@soapdog](http://twitter.com/soapdog).
 
-Agora que você faz parte dos criadores de aplicativos para Firefox OS venha fazer parte da [Comunidade Mozilla Brasil](http://mozillabrasil.org.br) e ajudar projetos livres como o Firefox OS a crescer ainda mais.
+Agora que você faz parte dos criadores de aplicativos para Firefox OS, venha fazer parte da [Comunidade Mozilla Brasil](http://mozillabrasil.org.br) e ajudar projetos livres, como o Firefox OS, a crescer ainda mais.
