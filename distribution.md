@@ -10,7 +10,7 @@ O processo de distribuição de aplicativos hospedados e empacotados é semelhan
 
 <<[Rotina para instalação de uma app hospedada](code/distribution/hosted_apps_distribution.js)
 
-No exemplo acima `manifestURL` deve conter o endereço do arquivo de manifesto. Ao executar essa rotina o Firefox OS pede para o usuário confirmar a instalação do app e dependendo da ação do mesmo o callback de erro ou de sucesso é chamado.
+No exemplo acima, `manifestURL` deve conter o endereço do arquivo de manifesto. Ao executar essa rotina o Firefox OS pede para o usuário confirmar a instalação do app e, dependendo da ação do mesmo, o callback de erro ou de sucesso é chamado.
 
 Para maiores informações sobre essas rotinas veja a [página na MDN sobre instalação de aplicativos](https://developer.mozilla.org/pt-BR/docs/Apps/JavaScript_API).
 
