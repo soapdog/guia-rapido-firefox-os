@@ -44,6 +44,6 @@ A ideia principal é que você não fique preso a Mozilla para nada. Se quiser p
 
 ## Conclusão
 
-Em resumo, o HTML 5 chegou para ficar e evoluir constantemente. O Firefox OS que é o novo sistema operacional móvel da Mozilla -- totalmente livre e construído às claras -- que oferece uma implementação robusta do HTML 5 e vai além ao oferecer APIs de acesso ao hardware via JavaScript. Essas APIs estão sendo padronizadas junto aos órgãos competentes e promovidas para adoção por outros fabricantes.
+Em resumo, o HTML 5 chegou para ficar e evoluir constantemente. O Firefox OS que é o novo sistema operacional móvel da Mozilla -- totalmente livre e construído às claras -- que oferece uma implementação robusta do HTML 5 e vai além ao oferecer APIs de acesso ao hardware via JavaScript. Essas APIs estão sendo padronizadas junto aos órgãos competentes e promovidas para adoção por outras organizações.
 
 No próximo capítulo vamos ver o que é necessário para criar aplicativos para Firefox OS. Vamos juntos que em breve já teremos um app rodando.
