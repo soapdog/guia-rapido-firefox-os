@@ -10,7 +10,7 @@ Diferentes navegadores possuem diferentes motores de renderização e execução
 
 Além disso, a Mozilla disponibiliza um simulador do Firefox OS que funciona como um complemento do Firefox. Portanto, é necessário instalar o Firefox para desktop para poder rodar o simulador do Firefox OS.
 
-A versão estável atual do Firefox pode ser [obtida nessa página](http://getfirefox.com) e então basta seguir as instruções para instalar no seu sistema operacional preferido.
+A versão estável atual do Firefox pode ser [obtida nessa página](http://getfirefox.com). Basta seguir as instruções para instalar no seu sistema operacional preferido.
 
 ## Instalando o Simulador do Firefox OS
 
