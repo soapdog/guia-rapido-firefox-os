@@ -46,7 +46,7 @@ Após apertar esse botão você verá uma tela semelhante a esta:
 
 ![Ferramentas do desenvolvedor conectadas ao simulador](images/originals/simulator-connected.png)
 
-Com as ferramentas ligadas você pode testar o JavaScript, depurar o DOM, mudar o estilo das coisas, enfim como diz a galera de startup *pivotar até seu app dar certo*.
+Com as ferramentas ligadas você pode testar o JavaScript, depurar o DOM, mudar o estilo das coisas, entre outros. Como a galera de startup diz, *pivotar até seu app dar certo*.
 
 Após seu app estar rodando bem no simulador é hora de testar em um aparelho de verdade.
 
