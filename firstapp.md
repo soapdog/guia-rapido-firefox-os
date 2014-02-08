@@ -460,7 +460,7 @@ Agora todos os nossos arquivos estão prontos, podemos testar o aplicativo no si
 
 ## Testando o app no simulador
 
-Antes de testarmos o aplicativo no simulador é melhor garantirmos que todos os arquivos estão no lugar certo. Sua pasta deve se parecer com essa aqui:
+Antes de testarmos o aplicativo no simulador é melhor garantirmos que todos os arquivos estão no lugar certo. Sua pasta deve se parecer com esta aqui:
 
 ![Lista de arquivos do Memos](images/originals/memos-file-list.png)
 
