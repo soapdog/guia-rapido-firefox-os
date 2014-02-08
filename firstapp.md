@@ -292,7 +292,7 @@ Com nossas funções para o armazenamento e manipulação de notas prontas, vamo
 
 ### app.js
 
-Esse arquivo contém a nossa lógica do programa. Como o código é grande demais para colocar todo de uma vez só vou quebra-lo em partes e colocar aos pouquinhos.
+Esse arquivo contém a nossa lógica do programa. Como o código é grande demais para ser mostrado de uma vez, vou quebrá-lo em partes e mostrá-las aos pouquinhos.
 
 ~~~~~~~~
 var listView, detailView, currentMemo, deleteMemoDialog;
