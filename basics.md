@@ -20,7 +20,7 @@ Acima podemos ver um exemplo de manifesto do aplicativo chamado memos[^memos]. E
 
 ![Listagem do memos no Firefox Marketplace](images/originals/memos-marketplace.png)
 
-A mesma informação do manifesto é utilizada para colocar o aplicativo no aparelho como podemos ver na captura de tela do simulador a seguir:
+A mesma informação do manifesto é utilizada para colocar o aplicativo no aparelho, como podemos ver na captura de tela do simulador a seguir:
 
 ![Memos no simulador](images/originals/memos-simulator.png)
 
