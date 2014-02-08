@@ -39,4 +39,4 @@ Uma ferramenta que vale um destaque é o [*depurador remoto*](https://developer.
 
 ## Conclusão
 
-Esse foi um capítulo expositivo para dar ao leitor referências para aprender mais sobre as ferramentas que vem dentro do Firefox. A utilização dessas ferramentas facilita muito a vida da gente e quando aliamos elas com o simulador do Firefox OS temos uma combinação imbatível para construção de apps por isso que no próximo capítulo vamos aprender um pouco mais sobre o simulador.
+Este foi um capítulo expositivo para dar ao leitor referências para aprender mais sobre as ferramentas que vêm no Firefox. A utilização dessas ferramentas facilita muito a vida da gente e quando aliamos elas com o simulador do Firefox OS temos uma combinação imbatível para construção de apps. Por isso, no próximo capítulo vamos aprender um pouco mais sobre o simulador.
