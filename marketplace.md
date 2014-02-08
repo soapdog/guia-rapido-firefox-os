@@ -23,7 +23,7 @@ Existem outros critérios, como mostrado nos links acima. Vale a pena estudar es
 
 A preparação do seu app para envio depende do tipo de app que ele é. Aplicativos hospedados simplesmente precisam estar disponíveis em algum servidor web. Aplicativos empacotados devem ser zipados antes do envio e merecem mais atenção.
 
-Muita gente comete o erro de selecionar a pasta que contém os arquivos do aplicativo e mandar zipar. Isso faz com que o zip contenha uma pasta e essa pasta contenha todos os arquivos. Esse não é o jeito correto de zipar apps para Firefox OS. O correto é fazer com que o zip contenha diretamente os arquivos do aplicativo. Mais especificamente, o que é necessário é que o manifesto esteja na *raiz do arquivo zip*, ou seja, que ele não esteja dentro de nenhuma pasta dentro do arquivo compactado. No Mac OS X e no Linux podemos navegar no terminal até dentro da pasta que está o nosso aplicativo e executar um comando como `zip -r meuapp.zip *` como podemos ver na captura de tela a seguir.
+Muita gente comete o erro de selecionar a pasta que contém os arquivos do aplicativo e mandar zipar. Isso faz com que o zip contenha uma pasta e essa pasta contenha todos os arquivos. Esse não é o jeito correto de zipar apps para Firefox OS. O correto é fazer com que o zip contenha diretamente os arquivos do aplicativo. Mais especificamente, o que é necessário é que o manifesto esteja na *raiz do arquivo zip*, ou seja, que ele não esteja dentro de nenhuma pasta dentro do arquivo compactado. No Mac OS X e no Linux podemos navegar no terminal até dentro da pasta que está o nosso aplicativo e executar um comando como `zip -r meuapp.zip *`, como podemos ver na captura de tela a seguir.
 
 ![Zipando corretamente os arquivos](images/originals/marketplace-preparing-packaged-app.png)
 
@@ -46,16 +46,16 @@ Esse link o levará para o formulário de entrada de novo aplicativo que pode se
 Nessa tela você pode selecionar as seguintes opções:
 
 * Se o aplicativo é hospedado ou empacotado.
-* Se ele é gratuíto ou pago (ou com *in-app purchases*).
-* Quais aparelhos ele funciona (Firefox OS, Firefox Desktop, Firefox for Mobile no Telefone, Firefox for Mobile no Tablet).
+* Se ele é gratuito ou pago (ou com *in-app purchases*).
+* Em quais aparelhos ele funciona (Firefox OS, Firefox Desktop, Firefox for Mobile no Telefone, Firefox for Mobile no Tablet).
 
-Feitas essas escolhas você passa para a segunda tela. Nesse livro estamos fazendo o processo para o envio de um app empacotado porém os demais tipos de app tem um workflow semelhante.
+Feitas essas escolhas, você passa para a segunda tela. Neste livro estamos fazendo o processo para o envio de um app empacotado, porém os demais tipos de app têm um workflow semelhante.
 
-Estamos assumindo para efeito desse exemplo um aplicativo empacotado gratuito para Firefox OS. Nesse caso, ele pede que a gente faça upload to arquivo que preparamos na etapa anterior.
+Estamos assumindo, para efeito desse exemplo, um aplicativo empacotado gratuito para Firefox OS. Nesse caso, ele pede que a gente faça upload do arquivo que preparamos na etapa anterior.
 
 [^meus-envios]: Em português *My Submissions*.
 
-Após o envio do arquivo ele será processado e um relatório com mais opções será mostrado.
+Após o envio do arquivo, ele será processado e um relatório com mais opções será mostrado.
 
 ![Depois do envio do arquivo zip](images/originals/marketplace-step-1_5.png)
 
