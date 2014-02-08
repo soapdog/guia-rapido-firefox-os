@@ -26,7 +26,7 @@ O Firefox OS é basicamente uma extensão móvel da web onde o HTML5 está em pr
 
 ## Acesso ao hardware com WebAPI
 
-Plataformas anteriores também tentaram criar sistemas operacionais cuja criação de aplicativos estava baseada em tecnologias web. Assim que o iPhone foi lançado, a única maneira de criar apps era através de webapps. O WebOS também utilizava HTML, CSS e JavaScript para a criação de apps. O que diferencia o Firefox OS dessas plataformas é que ele oferece acesso ao hardware e a componentes do sistema via JavaScript. No iOS os webapps não tem esse tipo de acesso e portanto apps baseados *apenas em web* se tornam cidadãos de segunda classe, incapazes de competir com aplicativos nativos. 
+Plataformas anteriores também tentaram criar sistemas operacionais cuja criação de aplicativos estava baseada em tecnologias web. Assim que o iPhone foi lançado, a única maneira de criar apps era através de webapps. O WebOS também utilizava HTML, CSS e JavaScript para a criação de apps. O que diferencia o Firefox OS dessas plataformas é que ele oferece acesso ao hardware e a componentes do sistema via JavaScript. No iOS os webapps não têm esse tipo de acesso e portanto apps baseados *apenas em web* se tornam cidadãos de segunda classe, incapazes de competir com aplicativos nativos. 
 
 Ao dizer acesso ao hardware estamos falando de coisas como por exemplo acessar os contatos do telefone, enviar SMS, acessar a câmera e as fotos do aparelho. No Firefox OS, graças à coleção de APIs chamadas de [WebAPI](https://wiki.mozilla.org/WebAPI), o desenvolvedor pode aproveitar todas essas funcionalidades utilizando nada além das tecnologias do HTML5. 
 
