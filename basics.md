@@ -6,7 +6,7 @@ Antes de colocarmos as mãos na massa e construírmos nosso primeiro app, vamos 
 * Possuir um nome.
 * Funcionar offline quando possível.
 
-No Firefox OS, um aplicativo é a grosso modo uma página web que possui um ícone, um nome e pode funcionar offline dependendo de como o desenvolvedor fizer o seu trabalho. Todas essas informações a respeito de um aplicativo tais como nome, ícone entre outras são definidas em um arquivo de manifesto como veremos na próxima sessão.
+No Firefox OS, um aplicativo é, a grosso modo, uma página web que possui um ícone, um nome e pode funcionar offline -- dependendo de como o desenvolvedor fizer o seu trabalho. Todas essas informações a respeito de um aplicativo tais como nome, ícone entre outras são definidas em um arquivo de manifesto como veremos na próxima sessão.
 
 ## O Manifesto
 
