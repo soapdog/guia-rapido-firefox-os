@@ -1,6 +1,6 @@
 # Conceitos
 
-Antes de colocarmos as mãos na massa e construírmos nosso primeiro app vamos aprender alguns conceitos básicos para desenvolvimento para Firefox OS. Como sabemos os apps são baseados em HTML5 assim como uma página web mas ainda não sabemos o que diferencia um app de uma simples página web. Se pensarmos as demais plataformas móveis que conhecemos podemos chegar a alguns requisitos mínimos para um aplicativo móvel:
+Antes de colocarmos as mãos na massa e construírmos nosso primeiro app, vamos aprender alguns conceitos básicos para desenvolvimento para Firefox OS. Como sabemos os apps são baseados em HTML5 assim como uma página web mas ainda não sabemos o que diferencia um app de uma simples página web. Se pensarmos as demais plataformas móveis que conhecemos podemos chegar a alguns requisitos mínimos para um aplicativo móvel:
 
 * Possuir um ícone.
 * Possuir um nome.
