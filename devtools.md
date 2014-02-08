@@ -6,11 +6,11 @@ Quem estiver interessado em conhecer mais sobre essas ferramentas e o que mais v
 
 ## Conhecendo o Modo de Design Adaptável
 
-Uma das coisas mais cômodas de quando estamos desenvolvendo para web é o fato de podermos simplesmente salvar o HTML e recarregar a página no browser para vermos as mudanças, sem a necessidade de um compilador ou coisa do gênero. Por mais que o simulador do Firefox OS também permita esse tipo de workflow as vezes queremos simplesmente ir testando as coisas no Firefox no desktop mesmo. Esse tipo de teste no desktop é muito comum quando estamos lidando com aplicativos hospedados que devem se adaptar para desktops, tablets e telefones. Nesses casos você pode utilizar o **Modo de Design Adaptável** para adaptar a tela (e o viewport) para tamanhos comuns de tablet e telefones e ver como seu trabalho fica nessas telas.
+Uma das coisas mais cômodas de quando estamos desenvolvendo para web é o fato de podermos simplesmente salvar o HTML e recarregar a página no browser para vermos as mudanças, sem a necessidade de um compilador ou coisa do gênero. Por mais que o simulador do Firefox OS também permita esse tipo de workflow, às vezes queremos simplesmente ir testando as coisas no Firefox no desktop mesmo. Esse tipo de teste no desktop é muito comum quando estamos lidando com aplicativos hospedados que devem se adaptar para desktops, tablets e telefones. Nesses casos você pode utilizar o **Modo de Design Adaptável** para adaptar a tela (e o viewport) para tamanhos comuns de tablet e telefones e ver como seu trabalho fica nessas telas.
 
-A utilização do modo de design adaptável é especialmente importante para quem está trabalhando com [**media queries**](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) pois permite que você redimensione a tela do jeito que bem entender e teste o seu CSS.
+A utilização do modo de design adaptável é especialmente importante para quem está trabalhando com [**media queries**](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries), pois permite que você redimensione a tela do jeito que bem entender e teste o seu CSS.
 
-O modo de design adaptável pode ser ativado no **menu Ferramentas -> Desenvolvedor Web -> Modo de Design Adaptável**[^responsive-design-view] como podemos ver na imagem abaixo.
+O modo de design adaptável pode ser ativado no **menu Ferramentas -> Desenvolvedor Web -> Modo de Design Adaptável**[^responsive-design-view], como podemos ver na imagem abaixo.
 
 [^responsive-design-view]: Em inglês *Responsive Design View*.
 
