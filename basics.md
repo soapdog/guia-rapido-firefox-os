@@ -81,7 +81,7 @@ Para saber mais sobre a API de contatos, visite [a pagina da *Contacts API* no w
 
 <<[Pegando uma imagem](code/webapi_samples/pick.js)
 
-Aqui vemos mais um exemplo de uma [WebActivity](https://hacks.mozilla.org/2013/01/introducing-web-activities/) (falaremos de web activities mais adiante no livro). As Web Activities estão disponíveis para todos os aplicativos. No caso desse exemplo utilizamos uma atividade do tipo *pick* e passamos os *MIME Types* desejados. Ao executar esse código, o sistema mostra uma tela para o usuário pedindo para ele selecionar da onde a imagem deve vir (câmera, álbum, wallpapers) e caso o usuário selecione uma imagem a callback de sucesso é executada, caso ele cancele a ação a callback de erro é executada. No caso de sucesso, o programa recebe um blob com a imagem. Na imagem abaixo podemos ver um exemplo do workflow:
+Aqui vemos mais um exemplo de uma [WebActivity](https://hacks.mozilla.org/2013/01/introducing-web-activities/) (falaremos de web activities mais adiante no livro). As Web Activities estão disponíveis para todos os aplicativos. No caso desse exemplo, utilizamos uma atividade do tipo *pick* e passamos os *MIME Types* desejados. Ao executar esse código, o sistema mostra uma tela para o usuário pedindo para ele selecionar da onde a imagem deve vir (câmera, álbum, wallpapers) e caso o usuário selecione uma imagem a callback de sucesso é executada, caso ele cancele a ação a callback de erro é executada. No caso de sucesso, o programa recebe um blob com a imagem. Na imagem abaixo podemos ver um exemplo do workflow:
 
 ![Exemplo da atividade *pick*](images/originals/pick_image.png)
 
