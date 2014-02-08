@@ -60,7 +60,7 @@ Caso você possua um aparelho que rode o Firefox OS e esteja com seus drivers em
 
 ![Aparelho Conectado!](images/originals/simulator-device-connected.png)
 
-Com o telefone conectado (e detectado), o simulador irá adicionar um botão perto do botão **Connect** e **Refresh** chamado **Push**. Ao apertar esse botão, um pedido de **permissão aparece na tela do telefone** e caso o usuário aceite, o aplicativo é instalado no aparelho.
+Com o telefone conectado (e detectado), o simulador irá adicionar um botão perto dos botões **Connect** e **Refresh**, chamado **Push**. Ao apertar esse botão, um pedido de **permissão aparece na tela do telefone** e, caso o usuário aceite, o aplicativo é instalado no aparelho.
 
 ![Qual botão apertar para enviar o app para o aparelho conectado](images/originals/simulator-press-push.png)
 
