@@ -14,7 +14,7 @@ Você pode adicionar aplicativos empacotados ou hospedados no simulador. O proce
 
 O foco deste livro são os aplicativos empacotados, simplesmente por que eu acho mais fácil trabalhar com eles. Portanto, você já sabe como fazer para adicionar um app que está em uma pasta dentro do seu computador, afinal, nós fizemos isso quando fomos testar o [Nosso Primeiro App](#firstapp). Porém, vamos repetir a explicação aqui para que fique mais claro.
 
-Para adicionar um aplicativo empacotado devemos clicar no botão **Add Directory** no **Dashboard do Simulador** como podemos ver abaixo.
+Para adicionar um aplicativo empacotado devemos clicar no botão **Add Directory** no **Dashboard do Simulador**, como podemos ver abaixo.
 
 ![Mostrando o botão utilizado para adicionar aplicativos empacotados ao simulador](images/originals/simulator-add-directory.png)
 
