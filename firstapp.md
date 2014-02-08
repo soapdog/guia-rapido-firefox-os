@@ -77,7 +77,7 @@ Na *linha 01* declaramos o tipo do documento como sendo HTML 5. Da *linha 05 at�
 
 ### Construíndo a tela principal
 
-Agora podemos passar para implementação das telas. Como falamos anteriormente, cada tela do programa é uma **<section>** dentro do **<body>** do HTML que deve ter um atributo *role* com valor *application* tipo `<body role="application">`. Isso é utilizado pelos seletores dos CSS do Building Blocks. Vamos construír a primeira tela (e declarar o body).
+Agora podemos passar para implementação das telas. Como falamos anteriormente, cada tela do programa é uma **<section>** dentro do **<body>** do HTML e deve ter um atributo *role* com valor *application*, como `<body role="application">`. Isso é utilizado pelos seletores dos CSS do Building Blocks. Vamos construír a primeira tela (e declarar o body).
 
 ~~~~~~~~
 <body role="application">
