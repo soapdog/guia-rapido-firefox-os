@@ -348,7 +348,7 @@ As funções `showMemoDetail()` e `displayMemo()` funcionam juntas. A primeira c
 
 A função `shareMemo()` utiliza uma [WebActivity](https://hacks.mozilla.org/2013/01/introducing-web-activities/) para criar uma nova mensagem no programa de email com o conteúdo da nota.
 
-A função `textChanged()` pega os dados dos campos de entrada e coloca novamente em `currentMemo` e então salva a nota. Isso é feito pois a idéia do programa é que o usuário nunca precise explicitamente salvar uma nota. Toda alteração nas caixas de entrada de texto causam a execução dessa rotina e a atualização da nota no banco de dados.
+A função `textChanged()` pega os dados dos campos de entrada, os coloca novamente em `currentMemo` e então salva a nota. Isso é feito pois a ideia do programa é que o usuário nunca precise explicitamente salvar uma nota. Toda alteração nas caixas de entrada de texto causam a execução dessa rotina e a atualização da nota no banco de dados.
 
 A função `newMemo()` cria uma nova nota e abre a tela de edição para ela.
 
@@ -383,7 +383,7 @@ A função `requestDeleteConfirmation()` é responsável por mostrar a tela de c
 
 As funções `closeDeleteMemoDialog()` e `deleteCurrentMemo()` são acionadas pelos botões de cancelamento e de confirmação de remoção da nota.
 
-A função `showMemoList()` faz a faxina antes de mostrar a lista de notas pois limpa o valor de `currentMemo` afinal se estamos vendo a lista de notas então não estamos vendo nenhuma nota e faz com que a tela principal seja mostrada.
+A função `showMemoList()` faz a faxina antes de mostrar a lista de notas, pois limpa o valor de `currentMemo`. Afinal, se estamos vendo a lista de notas, então não estamos vendo nenhuma nota. Assim, a função faz com que a tela principal seja mostrada.
 
 ~~~~~~~~
 function refreshMemoList() {
