@@ -24,7 +24,7 @@ A mesma informação do manifesto é utilizada para colocar o aplicativo no apar
 
 ![Memos no simulador](images/originals/memos-simulator.png)
 
-De posse dos seus arquivos HTML, CSS, JavaScript e de um arquivo de manifesto, você ja tem um app pronto para rodar no Firefox OS. Continuando sobre o tópico sobre aplicativos vamos aprender sobre os tipos de aplicativos existentes
+De posse dos seus arquivos HTML, CSS, JavaScript e de um arquivo de manifesto, você ja tem um app pronto para rodar no Firefox OS. Continuando o tópico sobre aplicativos, vamos aprender os tipos de aplicativos existentes.
 
 ## Tipos de aplicativo
 
