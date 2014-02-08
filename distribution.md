@@ -16,14 +16,14 @@ Para maiores informações sobre essas rotinas veja a [página na MDN sobre inst
 
 ## Aplicativos empacotados
 
-A instalação de aplicativos empacotados é bem semelhante porém em vez de chamar `mozApps.install()` devemos chamar `mozApps.installPackage()` como podemos ver no exemplo abaixo.
+A instalação de aplicativos empacotados é bem semelhante, porém, em vez de chamar `mozApps.install()`, devemos chamar `mozApps.installPackage()`, como podemos ver no exemplo abaixo.
 
 <<[Rotina para instalação de uma app empacotado](code/distribution/packaged_apps_distribution.js)
 
-W> Perigo: Eu tenho a impressão que a instalação de apps empacotados fora do marketplace ainda não é possível na versão atual do Firefox OS. Por mais que a API esteja documentada acho que ela ainda não foi totalmente implementada. Eu nunca testei. Aviso dado. Se funcionar me manda email para eu atualizar o livro.
+W> Perigo: Eu tenho a impressão de que a instalação de apps empacotados fora do marketplace ainda não é possível na versão atual do Firefox OS. Por mais que a API esteja documentada, acho que ela ainda não foi totalmente implementada. Eu nunca testei. Aviso dado. Se funcionar, me manda email para eu atualizar o livro.
 
 ## Conclusão
 
-Vimos rapidamente como é realizada a instalação de um aplicativo fora do Firefox Marketplace atraves das rotinas de instalação e gerenciamento e de **Open Web Apps**. Existem várias outras rotinas como por exemplo para detectar se a app está instalada ou não (assim você pode esconder o botão de instalar se a app já está instalada). Para saber mais sobre essas rotinas não deixe de ver a [página na MDN sobre instalação de aplicativos](https://developer.mozilla.org/pt-BR/docs/Apps/JavaScript_API) (eu já falei isso nesse capítulo, eu sei sou prolixo).
+Vimos rapidamente como é realizada a instalação de um aplicativo fora do Firefox Marketplace através das rotinas de instalação e gerenciamento de **Open Web Apps**. Existem várias outras rotinas, por exemplo, para detectar se a app está instalada ou não (assim você pode esconder o botão de instalar se a app já está instalada). Para saber mais sobre essas rotinas não deixe de ver a [página na MDN sobre instalação de aplicativos](https://developer.mozilla.org/pt-BR/docs/Apps/JavaScript_API) (eu já falei isso nesse capítulo, eu sei, sou prolixo).
 
 No próximo capítulo vamos ver como distribuir seu app no Firefox Marketplace.
