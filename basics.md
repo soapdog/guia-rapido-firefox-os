@@ -45,7 +45,7 @@ Existem três níveis de acesso ao hardware no Firefox OS. Cada nível possui AP
 * **Privilegiado:** Um aplicativo privilegiado tem acesso a todas as APIs disponíveis para um app normal e mais algumas. Uma exigência é que todos os aplicativos privilegiados sejam empacotados, ou seja, você não pode ter um aplicativo hospedado que seja privilegiado. Esses aplicativos têm acesso a APIs mais "profundas" do Firefox OS, como a API de contatos sem interação com usuário.
 * **Certificado:** Aplicativos certificados têm acesso total ao hardware e só podem ser construídos pela Mozilla e seus parceiros de hardware. Eles têm acesso, por exemplo, ao sistema de telefonia. Um exemplo de aplicativo certificado é o discador do Firefox OS.
 
-Em geral a maioria dos aplicativos não precisa de nada além do que o acesso normal oferece porém as vezes é necessário um acesso privilegiado para podermos utilizar certas APIs. Quando criamos um aplicativo privilegiado e enviamos ele ao Firefox Marketplace o processo de aprovação é mais rigoroso (e isso é bom).
+Em geral a maioria dos aplicativos não precisa de nada além do que o acesso normal oferece. Porém, às vezes é necessário um acesso privilegiado para podermos utilizar certas APIs. Quando criamos um aplicativo privilegiado e enviamos ele ao Firefox Marketplace o processo de aprovação é mais rigoroso (e isso é bom).
 
 Na [página sobre as WebAPIs no wiki da Mozilla](https://wiki.mozilla.org/WebAPI) podemos ver quais APIs estão implementadas em quais plataformas e qual o nível de acesso necessário para utiliza-las.
 
