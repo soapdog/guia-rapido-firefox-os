@@ -14,7 +14,7 @@ O [manifesto](https://developer.mozilla.org/pt-BR/docs/Apps/Manifest) é um arqu
 
 <<[Exemplo de Manifesto](code/sample_manifest.webapp)
 
-Acima podemos ver um exemplo de manifesto do aplicativo chamado memos[^memos]. Entre outras coisas ele descreve quem fez o aplicativo, qual icone e nome do mesmo, qual arquivo é utilizado para carregar o app (nesse caso o index.html), quais permissões de acesso ao hardware ele precisa, etc. Esse arquivo é utilizado pelo Firefox OS para adicionar o aplicativo ao aparelho e pelo Firefox Marketplace para criar a listagem do mesmo na loja como podemos ver na imagem abaixo:
+Acima podemos ver um exemplo de manifesto do aplicativo chamado memos[^memos]. Entre outras coisas, ele descreve quem fez o aplicativo, qual ícone e nome do mesmo, qual arquivo é utilizado para carregar o app (nesse caso o index.html) e quais permissões de acesso ao hardware ele precisa. Esse arquivo é utilizado pelo Firefox OS para adicionar o aplicativo ao aparelho e pelo Firefox Marketplace para criar a listagem do mesmo na loja como podemos ver na imagem abaixo:
 
 [^memos]: Esse é um app de exemplo para Firefox OS que pode ser [visto no Firefox Marketplace](https://marketplace.firefox.com/app/memos) e cujo o [código fonte esta disponível no github](https://github.com/soapdog/memos-for-firefoxos)
 
