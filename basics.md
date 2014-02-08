@@ -65,7 +65,7 @@ Imaginemos que você tem um programa que precisa abrir o discador do telefone co
 
 <<[Enviando um número para o telefone](code/webapi_samples/dial.js)
 
-Esse código apenas abre o discador com o número preenchido, portanto o usuário do telefone precisa apertar o botão de discar para efetuar a ligação. Esse tipo de API que precisa de uma ação do usuário antes de executar sua função é bem comum e é uma forma de segurança afinal utilizando essa API você não tem como criar um programa que liga para algum lugar sem interferência do usuário. Outras APIs que são capazes de efetuar ligações sem a confirmacão do usuário estão disponíveis para níveis mais elevados de aplicativos. A API do exemplo está disponível para todos os aplicativos.
+Esse código apenas abre o discador com o número preenchido, portanto o usuário do telefone precisa apertar o botão de discar para efetuar a ligação. Esse tipo de API, que precisa de uma ação do usuário antes de executar sua função, é bem comum e é oferece uma forma de segurança, afinal, utilizando essa API você não tem como criar um programa que liga para algum lugar sem a aprovação do usuário. Outras APIs que são capazes de efetuar ligações sem a confirmacão do usuário estão disponíveis para níveis mais elevados de aplicativos. A API do exemplo está disponível para todos os aplicativos.
 
 Essa API é uma Web Activity, para saber mais sobre esse tipo de API visite [este artigo no blog da Mozilla](https://hacks.mozilla.org/2013/01/introducing-web-activities/). 
 
