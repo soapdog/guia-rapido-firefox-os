@@ -30,4 +30,4 @@ Após o complemento ser instalado, ele estará disponível no menu **Ferramentas
 
 ## Conclusão
 
-Agora que temos todos o ambiente preparado vamos aprender uns conceitos básicos para então construirmos nosso primeiro app.
+Agora que temos todo o ambiente preparado, vamos aprender uns conceitos básicos para então construirmos nosso primeiro app.
