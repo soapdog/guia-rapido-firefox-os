@@ -54,7 +54,7 @@ W> Aviso: A versão que eu usei do Building Blocks não é a atual e eu modifiqu
 
 ### Incluíndo os Building Blocks
 
-Antes de mais nada, copie as pastas **shared** e **style** para a pasta Memos para que possamos utilizar o Building Blocks. Vamos começar o nosso arquivo **index.html** com os *includes* necessários para o programa.
+Antes de mais nada, copie as pastas **shared** e **style** para a pasta Memos, para que possamos utilizar o Building Blocks. Vamos começar o nosso arquivo **index.html**, com os *includes* necessários para o programa.
 
 ~~~~~~~~
 <!DOCTYPE html>
