@@ -38,7 +38,7 @@ A Mozilla não está implementando a WebAPI somente no Firefox OS, seus esforço
 
 ## Liberdade para desenvolvimento e distribuição
 
-Como tudo da Mozilla, o Firefox OS é construído às claras e de forma livre. Todo o desenvolvimento pode ser acompanhado pelo [GitHub da Mozilla](https://github.com/mozilla-b2g/B2G). Com o Firefox OS você tem a liberdade para acompanhar e contribuir com o desenvolvimento do sistema e também a liberdade para distribuir seus aplicativos como desejar seja na sua própria página web ou no [Firefox Marketplace](https://marketplace.firefox.com/).
+Como tudo da Mozilla, o Firefox OS é construído às claras e de forma livre. Todo o desenvolvimento pode ser acompanhado pelo [GitHub da Mozilla](https://github.com/mozilla-b2g/B2G). Com o Firefox OS você tem a liberdade para acompanhar e contribuir com o desenvolvimento do sistema e também para distribuir seus próprios aplicativos como desejar, seja na sua própria página web ou no [Firefox Marketplace](https://marketplace.firefox.com/).
 
 A ideia principal é que você não fique preso a Mozilla para nada. Se quiser pegar o código fonte do sistema e modificá-lo para as suas necessidades você pode. Se quiser construir aplicativos para utilização interna da sua empresa ou quiser distribuir suas criações somente em sua própria página, você também pode. Em outras plataformas, você está em geral amarrado a distribuir seus aplicativos somente via a loja autorizada do fabricante e portanto sujeito aos critérios e ao processo de aprovação do mesmo. O Firefox Marketplace também possui um processo e critérios de aprovação, porém você é livre para não utilizar ele se não quiser. Assim como na web, onde você é livre para hospedar sua página como achar melhor, no Firefox OS você também é.
 
