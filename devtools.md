@@ -2,11 +2,11 @@
 
 O Firefox possui diversas ferramentas para auxiliar os desenvolvedores web a fazerem o seu trabalho. Muita gente ainda usa o [FireBug](https://addons.mozilla.org/pt-BR/firefox/addon/firebug/) e não sabe que o Firefox já inclui ferramentas próprias. Nesta sessão vamos ver rapidamente algumas ferramentas que são muito úteis para quem está desenvolvendo apps.
 
-Quem estiver interessado em conhecer mais sobre essas ferramentas e o que mais virá por ai pode dar uma olhada na [página da MDN sobre ferramentas do desenvolvedor](https://developer.mozilla.org/en-US/docs/Tools).
+Quem estiver interessado em conhecer mais sobre essas ferramentas e o que mais virá por aí pode dar uma olhada na [página da MDN sobre ferramentas do desenvolvedor](https://developer.mozilla.org/en-US/docs/Tools).
 
 ## Conhecendo o Modo de Design Adaptável
 
-Uma das coisas mais cômodas de quando estamos desenvolvendo para web é o fato de podermos simplesmente salvar o HTML e recarregar no browser para vermos as mudanças sem a necessidade de um compilador ou coisa do gênero. Por mais que o simulador do Firefox OS também permita esse tipo de workflow as vezes queremos simplesmente ir testando as coisas no Firefox no desktop mesmo. Esse tipo de teste no desktop é muito comum quando estamos lidando com aplicativos hospedados que devem se adaptar para desktops, tablets e telefones. Nesses casos você pode utilizar o **Modo de Design Adaptável** para adaptar a tela (e o viewport) para tamanhos comuns de tablet e telefones e ver como seu trabalho fica nessas telas.
+Uma das coisas mais cômodas de quando estamos desenvolvendo para web é o fato de podermos simplesmente salvar o HTML e recarregar a página no browser para vermos as mudanças, sem a necessidade de um compilador ou coisa do gênero. Por mais que o simulador do Firefox OS também permita esse tipo de workflow as vezes queremos simplesmente ir testando as coisas no Firefox no desktop mesmo. Esse tipo de teste no desktop é muito comum quando estamos lidando com aplicativos hospedados que devem se adaptar para desktops, tablets e telefones. Nesses casos você pode utilizar o **Modo de Design Adaptável** para adaptar a tela (e o viewport) para tamanhos comuns de tablet e telefones e ver como seu trabalho fica nessas telas.
 
 A utilização do modo de design adaptável é especialmente importante para quem está trabalhando com [**media queries**](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) pois permite que você redimensione a tela do jeito que bem entender e teste o seu CSS.
 
