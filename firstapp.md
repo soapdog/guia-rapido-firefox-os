@@ -95,7 +95,7 @@ Agora podemos passar para implementação das telas. Como falamos anteriormente,
 
 Nossa tela tem um **<header>** que possui um botão para adicionar novas notas e o nome do programa. Possui também um **<article>** que é utilizado para conter a lista de notas armazanadas no app. Nós utilizaremos as IDs do **<article>** e do **botão** para capturar eventos quando chegarmos na parte em JavaScript.
 
-Repare que a criação da tela é um HTML bem tranquilo de se entender, construir a mesma tela em outras linguagens é muito mais trabalhoso. Simplesmente declaramos nossos componentes e damos IDs para elementos que desejamos referenciar posteriormente. 
+Repare que a criação da tela é um HTML bem tranquilo de se entender. Construir a mesma tela em outras linguagens é muito mais trabalhoso. Simplesmente declaramos nossos componentes e damos IDs para elementos que desejamos referenciar posteriormente. 
 
 Agora que temos a tela principal pronta, vamos montar a tela de edição que é mais complicada.
 
