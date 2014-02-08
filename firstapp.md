@@ -48,9 +48,9 @@ Antes de colocarmos a mão na massa e montarmos o HTML utilizado pelo memos, vam
 
 No Firefox OS, assim como na web em geral, você não é obrigado a utilizar o *look and feel* do sistema operacional. Utilizar ou não os Building Blocks é uma decisão sua que passa por questões de *branding*, conveniência de uso, adequação ao que você precisa, entre outras. O importante é entender que você não sofre nenhum tipo de repreensão no Firefox Marketplace por não utilizar a cara do Firefox OS. Eu, como não sou um bom designer, opto sempre por utilizar um pacote pronto como esse (ou contratar um designer).
 
-A estrutura do HTML do nosso programa foi construída para se adequar aos padrões adotados pelo Gaia Building Blocks onde cada tela é uma *section* e os elementos seguem uma formulazinha. O ideal agora é que você baixe o código fonte do Memos a partir do [meu Github](https://github.com/soapdog/memos-for-firefoxos) para que você tenha os arquivos do Building Blocks.
+A estrutura do HTML do nosso programa foi construída para se adequar aos padrões adotados pelo Gaia Building Blocks, onde cada tela é uma *section* e os elementos seguem uma formulazinha. O ideal agora é que você baixe o código fonte do Memos a partir do [meu Github](https://github.com/soapdog/memos-for-firefoxos) para que você tenha os arquivos do Building Blocks.
 
-W> Aviso: A versão que eu usei do Building Blocks não é a atual e eu modifiquei alguns arquivos portanto o código que vamos mostrar só vai funcionar com a versão que está no repositório do Memos.
+W> Aviso: A versão que eu usei do Building Blocks não é a atual e eu modifiquei alguns arquivos. Portanto, o código que vamos mostrar só vai funcionar com a versão que está no repositório do Memos.
 
 ### Incluíndo os Building Blocks
 
