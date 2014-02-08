@@ -2,7 +2,7 @@
 
 ![Memos, um bloco de notas minimalista](images/originals/memos-app.png)
 
-Nesse capítulo vamos reconstruir o aplicativo **Memos** que é um bloco de notas que eu criei para servir de exemplo em minhas palestras. Esse programa possui três telas. A primeira está acima e é a tela principal do programa que lista os títulos das notas. Ao clicar em uma dessas notas ou clicar no sinal de adição somos direcionados para a tela de edição onde podemos alterar o título e conteúdo da nota como pode ser visto abaixo:
+Neste capítulo vamos reconstruir o aplicativo **Memos** que é um bloco de notas que eu criei para servir de exemplo em minhas palestras. Esse programa possui três telas. A primeira está acima e é a tela principal do programa que lista os títulos das notas. Ao clicar em uma dessas notas ou clicar no sinal de adição somos direcionados para a tela de edição onde podemos alterar o título e conteúdo da nota como pode ser visto abaixo:
 
 ![Memos, tela de edição](images/originals/memos-editing-screen.png)
 
