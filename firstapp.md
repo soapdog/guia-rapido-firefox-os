@@ -284,7 +284,7 @@ function deleteMemo(inId, inCallback) {
 }
 ~~~~~~~~
 
-Acima criamos uma função construtora para montar novas notas já com alguns campos inicializados. A seguir implementamos funções para listar, salvar e remover as notas. Essas funções em geral sempre aceitam um parametro `inCallback` que é uma função de retorno para ser executada após o processamento da função. Isso é necessário dada a natureza assíncrona das chamadas ao IndexedDB. Todas as callbacks tem a mesma assinatura que é `callback(error, value)` onde um dos valores é nulo dependendo do que aconteceu.
+Acima criamos uma função construtora para montar novas notas já com alguns campos inicializados. A seguir, implementamos funções para listar, salvar e remover as notas. Essas funções, em geral, sempre aceitam um parametro `inCallback` que é uma função de retorno para ser executada após o processamento da função. Isso é necessário dada a natureza assíncrona das chamadas ao IndexedDB. Todas as callbacks têm a mesma assinatura, que é `callback(error, value)`, onde um dos valores é nulo dependendo do que aconteceu.
 
 A> Como esse é um livro de caráter introdutório eu optei por não utilizar [*Promises*](https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/Promise.jsm/Promise) visto que muitos desenvolvedores ainda não estão familiarizados com o conceito. Eu recomendo fortemente a utilização desse tipo de solução que torna o código mais legível e fácil de manter.
 
