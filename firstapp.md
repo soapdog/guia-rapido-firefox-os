@@ -138,13 +138,13 @@ Agora que temos a tela principal pronta, vamos montar a tela de edição que é 
 </section>
 ~~~~~~~~
 
-Essa tela de edição contém a tela de diálogo utilizada quando o usuário tenta deletar uma nota por isso ela é mais complicada. 
+Essa tela de edição contém a tela de diálogo utilizada quando o usuário tenta deletar uma nota, por isso ela é mais complicada. 
 
-No topo da tela que é marcado pelo **<header>** temos o botão de voltar para a tela principal, uma caixa de entrada de texto que é utilizada para mostrar e modificar o título da nota e um botão utilizado para enviar a nota por email.
+No topo da tela, que é marcado pelo **<header>**, temos o botão de voltar para a tela principal, uma caixa de entrada de texto, que é utilizada para mostrar e modificar o título da nota, e um botão utilizado para enviar a nota por email.
 
-Depois da toolbar que fica no topo, temos um parágrafo contendo uma área para a entrada de texto da nota e então uma outra toolbar com um botão para deletar a nota que está aberta.
+Depois da toolbar que fica no topo, temos um parágrafo contendo uma área para a entrada de texto da nota e então uma outra toolbar, com um botão para deletar a nota que está aberta.
 
-Esses três elementos e seus nós filhos formam a tela de edição e após essa tela temos um **<form>** que na verdade representa a caixa de diálogo utilizada pela tela de confirmação da remoção da nota. Essa caixa de diálogo é bem simples contendo uma mensagem informativa e um botão para cancelar a ação de deletar a nota e um para confirmar.
+Esses três elementos e seus nós filhos formam a tela de edição. Após essa tela temos um **<form>** que, na verdade, representa a caixa de diálogo utilizada pela tela de confirmação da remoção da nota. Essa caixa de diálogo é bem simples, contendo uma mensagem informativa e um botão para cancelar a ação de deletar a nota e um para confirmar.
 
 Ao fecharmos essa **<section>** terminamos todas as telas do programa e o restante do código HTML serve apenas para incluir os arquivos de JavaScript utilizados pelo programa.
 
