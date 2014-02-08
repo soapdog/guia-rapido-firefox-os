@@ -219,9 +219,9 @@ A> Importante: Novamente me perdoem pelas variáveis globais, isso aqui é um ap
 
 O código acima cria um objeto *db* e um objeto *request*. O objeto *db* é utilizado por outras funções no código para manipular o registro das notas.
 
-Na implementação da função `request.onupgradeneeded` aproveitamos para criar uma nota de exemplo desta forma assim que o programa liga pela primeira vez e essa função é executada, o banco de dados é inicializado com uma nota de boas vindas.
+Na implementação da função `request.onupgradeneeded` aproveitamos para criar uma nota de exemplo. Dessa forma, assim que o programa liga pela primeira vez, essa função é executada e o banco de dados é inicializado com uma nota de boas vindas.
 
-Com nossa conexão aberta e armazenamento inicializado é hora de implementar as funções para manipulação das notas.
+Com nossa conexão aberta e armazenamento inicializado, é hora de implementar as funções para manipulação das notas.
 
 ~~~~~~~~
 function Memo() {
